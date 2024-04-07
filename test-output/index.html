@@ -1,0 +1,1431 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 9 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-IDEAL" class="navigator-link">
+              <span class="suite-name border-failed">IDEAL</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-IDEAL" class="navigator-link ">
+                    <span>D:\CygnusAI\DataExchangeAdmin\DataExchangeAdmin\DataExchangeAdmin.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-IDEAL" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-IDEAL" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-IDEAL" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-IDEAL" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-IDEAL" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-IDEAL" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">47 methods, 9 failed,   38 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-IDEAL" class="hide-methods failed suite-IDEAL"> (hide)</a> <!-- hide-methods failed suite-IDEAL -->
+                      <a href="#" panel-name="suite-IDEAL" class="show-methods failed suite-IDEAL"> (show)</a> <!-- show-methods failed suite-IDEAL -->
+                    </span>
+                    <div class="method-list-content failed suite-IDEAL">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-IDEAL" title="com.qa.tests.DataExchangeAdmin" class="method navigator-link" hash-for-method="batch_downloadfile">batch_downloadfile</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-IDEAL" title="com.qa.tests.DataExchangeAdmin" class="method navigator-link" hash-for-method="batch_fileupload">batch_fileupload</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-IDEAL" title="com.qa.tests.DataExchangeAdmin" class="method navigator-link" hash-for-method="linkuser">linkuser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-IDEAL" title="com.qa.tests.DataExchangeAdmin" class="method navigator-link" hash-for-method="reports_activelogins">reports_activelogins</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-IDEAL" title="com.qa.tests.DataExchangeAdmin" class="method navigator-link" hash-for-method="save_workflowmthod">save_workflowmthod</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-IDEAL" title="com.qa.tests.DataExchangeAdmin" class="method navigator-link" hash-for-method="savebatchdetail">savebatchdetail</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-IDEAL" title="com.qa.tests.DataExchangeAdmin" class="method navigator-link" hash-for-method="searchreason">searchreason</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-IDEAL" title="com.qa.tests.DataExchangeAdmin" class="method navigator-link" hash-for-method="searchreasondetail">searchreasondetail</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-IDEAL" title="com.qa.tests.DataExchangeAdmin" class="method navigator-link" hash-for-method="searchreasonsusers">searchreasonsusers</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-IDEAL -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-IDEAL" class="hide-methods passed suite-IDEAL"> (hide)</a> <!-- hide-methods passed suite-IDEAL -->
+                      <a href="#" panel-name="suite-IDEAL" class="show-methods passed suite-IDEAL"> (show)</a> <!-- show-methods passed suite-IDEAL -->
+                    </span>
+                    <div class="method-list-content passed suite-IDEAL">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-IDEAL" title="com.qa.tests.DataExchangeAdmin" class="method navigator-link" hash-for-method="AdminDashboard">AdminDashboard</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-IDEAL" title="com.qa.tests.DataExchangeAdmin" class="method navigator-link" hash-for-method="Admin_APIConnectivity">Admin_APIConnectivity</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-IDEAL" title="com.qa.tests.DataExchangeAdmin" class="method navigator-link" hash-for-method="Admin_IsUserPresent">Admin_IsUserPresent</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-IDEAL" title="com.qa.tests.DataExchangeAdmin" class="method navigator-link" hash-for-method="Admin_SearchUsersByName">Admin_SearchUsersByName</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-IDEAL" title="com.qa.tests.DataExchangeAdmin" class="method navigator-link" hash-for-method="AgencyAll">AgencyAll</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-IDEAL" title="com.qa.tests.DataExchangeAdmin" class="method navigator-link" hash-for-method="AgencyDistribution">AgencyDistribution</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-IDEAL" title="com.qa.tests.DataExchangeAdmin" class="method navigator-link" hash-for-method="CreateSysyemUser">CreateSysyemUser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-IDEAL" title="com.qa.tests.DataExchangeAdmin" class="method navigator-link" hash-for-method="Credentilas">Credentilas</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-IDEAL" title="com.qa.tests.DataExchangeAdmin" class="method navigator-link" hash-for-method="CustomAttributes">CustomAttributes</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-IDEAL" title="com.qa.tests.DataExchangeAdmin" class="method navigator-link" hash-for-method="EnableDisableSystemUser">EnableDisableSystemUser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-IDEAL" title="com.qa.tests.DataExchangeAdmin" class="method navigator-link" hash-for-method="UpdateSystemUser">UpdateSystemUser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-IDEAL" title="com.qa.tests.DataExchangeAdmin" class="method navigator-link" hash-for-method="alertmessage">alertmessage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-IDEAL" title="com.qa.tests.DataExchangeAdmin" class="method navigator-link" hash-for-method="batch_statusupdate">batch_statusupdate</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-IDEAL" title="com.qa.tests.DataExchangeAdmin" class="method navigator-link" hash-for-method="batchdetail">batchdetail</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-IDEAL" title="com.qa.tests.DataExchangeAdmin" class="method navigator-link" hash-for-method="downloadbatchdetail">downloadbatchdetail</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-IDEAL" title="com.qa.tests.DataExchangeAdmin" class="method navigator-link" hash-for-method="downloadreport">downloadreport</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-IDEAL" title="com.qa.tests.DataExchangeAdmin" class="method navigator-link" hash-for-method="entitysearch">entitysearch</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-IDEAL" title="com.qa.tests.DataExchangeAdmin" class="method navigator-link" hash-for-method="historicalbatches">historicalbatches</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-IDEAL" title="com.qa.tests.DataExchangeAdmin" class="method navigator-link" hash-for-method="individualsearch">individualsearch</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-IDEAL" title="com.qa.tests.DataExchangeAdmin" class="method navigator-link" hash-for-method="monthlyentity">monthlyentity</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-IDEAL" title="com.qa.tests.DataExchangeAdmin" class="method navigator-link" hash-for-method="monthlyindividual">monthlyindividual</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-IDEAL" title="com.qa.tests.DataExchangeAdmin" class="method navigator-link" hash-for-method="reeference_template">reeference_template</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-IDEAL" title="com.qa.tests.DataExchangeAdmin" class="method navigator-link" hash-for-method="reference_agency">reference_agency</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-IDEAL" title="com.qa.tests.DataExchangeAdmin" class="method navigator-link" hash-for-method="reference_role">reference_role</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-IDEAL" title="com.qa.tests.DataExchangeAdmin" class="method navigator-link" hash-for-method="reference_userdisablereason">reference_userdisablereason</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-IDEAL" title="com.qa.tests.DataExchangeAdmin" class="method navigator-link" hash-for-method="reports_employeeworkinghours">reports_employeeworkinghours</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-IDEAL" title="com.qa.tests.DataExchangeAdmin" class="method navigator-link" hash-for-method="reports_entitydetails">reports_entitydetails</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-IDEAL" title="com.qa.tests.DataExchangeAdmin" class="method navigator-link" hash-for-method="reports_failedlogins">reports_failedlogins</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-IDEAL" title="com.qa.tests.DataExchangeAdmin" class="method navigator-link" hash-for-method="reports_landing">reports_landing</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-IDEAL" title="com.qa.tests.DataExchangeAdmin" class="method navigator-link" hash-for-method="reports_loginhistory">reports_loginhistory</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-IDEAL" title="com.qa.tests.DataExchangeAdmin" class="method navigator-link" hash-for-method="reports_multiauthorization">reports_multiauthorization</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-IDEAL" title="com.qa.tests.DataExchangeAdmin" class="method navigator-link" hash-for-method="reports_newaccounts">reports_newaccounts</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-IDEAL" title="com.qa.tests.DataExchangeAdmin" class="method navigator-link" hash-for-method="reports_queryhistory">reports_queryhistory</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-IDEAL" title="com.qa.tests.DataExchangeAdmin" class="method navigator-link" hash-for-method="reports_queryhistoryfiltered">reports_queryhistoryfiltered</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-IDEAL" title="com.qa.tests.DataExchangeAdmin" class="method navigator-link" hash-for-method="reports_seaechesperformedbyuser">reports_seaechesperformedbyuser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-IDEAL" title="com.qa.tests.DataExchangeAdmin" class="method navigator-link" hash-for-method="workflow_client">workflow_client</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-IDEAL" title="com.qa.tests.DataExchangeAdmin" class="method navigator-link" hash-for-method="workflow_method">workflow_method</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-IDEAL" title="com.qa.tests.DataExchangeAdmin" class="method navigator-link" hash-for-method="workflows">workflows</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-IDEAL -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-IDEAL" class="panel IDEAL">
+          <div class="suite-IDEAL-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.qa.tests.DataExchangeAdmin</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="batch_downloadfile">
+                  </a> <!-- batch_downloadfile -->
+                  <span class="method-name">batch_downloadfile</span>
+                  <div class="stack-trace">java.lang.AssertionError: status code is not 200 expected [200] but found [405]
+	at com.qa.tests.DataExchangeAdmin.batch_downloadfile(DataExchangeAdmin.java:764)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="batch_fileupload">
+                  </a> <!-- batch_fileupload -->
+                  <span class="method-name">batch_fileupload</span>
+                  <div class="stack-trace">java.lang.AssertionError: status code is not 200 expected [200] but found [400]
+	at com.qa.tests.DataExchangeAdmin.batch_fileupload(DataExchangeAdmin.java:641)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="linkuser">
+                  </a> <!-- linkuser -->
+                  <span class="method-name">linkuser</span>
+                  <div class="stack-trace">java.lang.AssertionError: status code is not 200 expected [200] but found [400]
+	at com.qa.tests.DataExchangeAdmin.linkuser(DataExchangeAdmin.java:1326)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="reports_activelogins">
+                  </a> <!-- reports_activelogins -->
+                  <span class="method-name">reports_activelogins</span>
+                  <div class="stack-trace">org.json.JSONException: JSONArray[0] not found.
+	at org.json.JSONArray.get(JSONArray.java:264)
+	at com.qa.util.TestUtil.getValueByjpath(TestUtil.java:16)
+	at com.qa.tests.DataExchangeAdmin.reports_activelogins(DataExchangeAdmin.java:1057)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="save_workflowmthod">
+                  </a> <!-- save_workflowmthod -->
+                  <span class="method-name">save_workflowmthod</span>
+                  <div class="stack-trace">java.lang.AssertionError: status code is not 200 expected [200] but found [405]
+	at com.qa.tests.DataExchangeAdmin.save_workflowmthod(DataExchangeAdmin.java:1540)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="savebatchdetail">
+                  </a> <!-- savebatchdetail -->
+                  <span class="method-name">savebatchdetail</span>
+                  <div class="stack-trace">java.lang.AssertionError: status code is not 200 expected [200] but found [405]
+	at com.qa.tests.DataExchangeAdmin.savebatchdetail(DataExchangeAdmin.java:830)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchreason">
+                  </a> <!-- searchreason -->
+                  <span class="method-name">searchreason</span>
+                  <div class="stack-trace">org.json.JSONException: JSONArray[0] not found.
+	at org.json.JSONArray.get(JSONArray.java:264)
+	at com.qa.util.TestUtil.getValueByjpath(TestUtil.java:16)
+	at com.qa.tests.DataExchangeAdmin.searchreason(DataExchangeAdmin.java:1278)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchreasondetail">
+                  </a> <!-- searchreasondetail -->
+                  <span class="method-name">searchreasondetail</span>
+                  <div class="stack-trace">org.json.JSONException: JSONArray[0] not found.
+	at org.json.JSONArray.get(JSONArray.java:264)
+	at com.qa.util.TestUtil.getValueByjpath(TestUtil.java:16)
+	at com.qa.tests.DataExchangeAdmin.searchreasondetail(DataExchangeAdmin.java:1306)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchreasonsusers">
+                  </a> <!-- searchreasonsusers -->
+                  <span class="method-name">searchreasonsusers</span>
+                  <div class="stack-trace">org.json.JSONException: JSONArray[0] not found.
+	at org.json.JSONArray.get(JSONArray.java:264)
+	at com.qa.util.TestUtil.getValueByjpath(TestUtil.java:16)
+	at com.qa.tests.DataExchangeAdmin.searchreasonsusers(DataExchangeAdmin.java:1363)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-IDEAL-class-failed -->
+          <div class="suite-IDEAL-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.qa.tests.DataExchangeAdmin</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="AdminDashboard">
+                  </a> <!-- AdminDashboard -->
+                  <span class="method-name">AdminDashboard</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Admin_APIConnectivity">
+                  </a> <!-- Admin_APIConnectivity -->
+                  <span class="method-name">Admin_APIConnectivity</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Admin_IsUserPresent">
+                  </a> <!-- Admin_IsUserPresent -->
+                  <span class="method-name">Admin_IsUserPresent</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Admin_SearchUsersByName">
+                  </a> <!-- Admin_SearchUsersByName -->
+                  <span class="method-name">Admin_SearchUsersByName</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="AgencyAll">
+                  </a> <!-- AgencyAll -->
+                  <span class="method-name">AgencyAll</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="AgencyDistribution">
+                  </a> <!-- AgencyDistribution -->
+                  <span class="method-name">AgencyDistribution</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="CreateSysyemUser">
+                  </a> <!-- CreateSysyemUser -->
+                  <span class="method-name">CreateSysyemUser</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Credentilas">
+                  </a> <!-- Credentilas -->
+                  <span class="method-name">Credentilas</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="CustomAttributes">
+                  </a> <!-- CustomAttributes -->
+                  <span class="method-name">CustomAttributes</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="EnableDisableSystemUser">
+                  </a> <!-- EnableDisableSystemUser -->
+                  <span class="method-name">EnableDisableSystemUser</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="UpdateSystemUser">
+                  </a> <!-- UpdateSystemUser -->
+                  <span class="method-name">UpdateSystemUser</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="alertmessage">
+                  </a> <!-- alertmessage -->
+                  <span class="method-name">alertmessage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="batch_statusupdate">
+                  </a> <!-- batch_statusupdate -->
+                  <span class="method-name">batch_statusupdate</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="batchdetail">
+                  </a> <!-- batchdetail -->
+                  <span class="method-name">batchdetail</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="downloadbatchdetail">
+                  </a> <!-- downloadbatchdetail -->
+                  <span class="method-name">downloadbatchdetail</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="downloadreport">
+                  </a> <!-- downloadreport -->
+                  <span class="method-name">downloadreport</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="entitysearch">
+                  </a> <!-- entitysearch -->
+                  <span class="method-name">entitysearch</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="historicalbatches">
+                  </a> <!-- historicalbatches -->
+                  <span class="method-name">historicalbatches</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="individualsearch">
+                  </a> <!-- individualsearch -->
+                  <span class="method-name">individualsearch</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="monthlyentity">
+                  </a> <!-- monthlyentity -->
+                  <span class="method-name">monthlyentity</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="monthlyindividual">
+                  </a> <!-- monthlyindividual -->
+                  <span class="method-name">monthlyindividual</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="reeference_template">
+                  </a> <!-- reeference_template -->
+                  <span class="method-name">reeference_template</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="reference_agency">
+                  </a> <!-- reference_agency -->
+                  <span class="method-name">reference_agency</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="reference_role">
+                  </a> <!-- reference_role -->
+                  <span class="method-name">reference_role</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="reference_userdisablereason">
+                  </a> <!-- reference_userdisablereason -->
+                  <span class="method-name">reference_userdisablereason</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="reports_employeeworkinghours">
+                  </a> <!-- reports_employeeworkinghours -->
+                  <span class="method-name">reports_employeeworkinghours</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="reports_entitydetails">
+                  </a> <!-- reports_entitydetails -->
+                  <span class="method-name">reports_entitydetails</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="reports_failedlogins">
+                  </a> <!-- reports_failedlogins -->
+                  <span class="method-name">reports_failedlogins</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="reports_landing">
+                  </a> <!-- reports_landing -->
+                  <span class="method-name">reports_landing</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="reports_loginhistory">
+                  </a> <!-- reports_loginhistory -->
+                  <span class="method-name">reports_loginhistory</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="reports_multiauthorization">
+                  </a> <!-- reports_multiauthorization -->
+                  <span class="method-name">reports_multiauthorization</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="reports_newaccounts">
+                  </a> <!-- reports_newaccounts -->
+                  <span class="method-name">reports_newaccounts</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="reports_queryhistory">
+                  </a> <!-- reports_queryhistory -->
+                  <span class="method-name">reports_queryhistory</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="reports_queryhistoryfiltered">
+                  </a> <!-- reports_queryhistoryfiltered -->
+                  <span class="method-name">reports_queryhistoryfiltered</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="reports_seaechesperformedbyuser">
+                  </a> <!-- reports_seaechesperformedbyuser -->
+                  <span class="method-name">reports_seaechesperformedbyuser</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="workflow_client">
+                  </a> <!-- workflow_client -->
+                  <span class="method-name">workflow_client</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="workflow_method">
+                  </a> <!-- workflow_method -->
+                  <span class="method-name">workflow_method</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="workflows">
+                  </a> <!-- workflows -->
+                  <span class="method-name">workflows</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-IDEAL-class-passed -->
+        </div> <!-- panel IDEAL -->
+        <div panel-name="test-xml-IDEAL" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">D:\CygnusAI\DataExchangeAdmin\DataExchangeAdmin\DataExchangeAdmin.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;IDEAL&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.qa.tests.DataExchangeAdmin&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;DataExchangeAdmin&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.qa.tests.DataExchangeAdmin&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- DataExchangeAdmin --&gt;
+&lt;/suite&gt; &lt;!-- IDEAL --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-IDEAL" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for IDEAL</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">DataExchangeAdmin (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-IDEAL" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for IDEAL</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-IDEAL" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for IDEAL</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_IDEAL');
+function tableData_IDEAL() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(47);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'CustomAttributes')
+data.setCell(0, 2, 'com.qa.tests.DataExchangeAdmin')
+data.setCell(0, 3, 106408);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'reports_employeeworkinghours')
+data.setCell(1, 2, 'com.qa.tests.DataExchangeAdmin')
+data.setCell(1, 3, 26077);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'downloadreport')
+data.setCell(2, 2, 'com.qa.tests.DataExchangeAdmin')
+data.setCell(2, 3, 25218);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'reports_failedlogins')
+data.setCell(3, 2, 'com.qa.tests.DataExchangeAdmin')
+data.setCell(3, 3, 19609);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'reports_loginhistory')
+data.setCell(4, 2, 'com.qa.tests.DataExchangeAdmin')
+data.setCell(4, 3, 19072);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'reports_activelogins')
+data.setCell(5, 2, 'com.qa.tests.DataExchangeAdmin')
+data.setCell(5, 3, 17354);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'Credentilas')
+data.setCell(6, 2, 'com.qa.tests.DataExchangeAdmin')
+data.setCell(6, 3, 9246);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'Admin_SearchUsersByName')
+data.setCell(7, 2, 'com.qa.tests.DataExchangeAdmin')
+data.setCell(7, 3, 5810);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'reports_multiauthorization')
+data.setCell(8, 2, 'com.qa.tests.DataExchangeAdmin')
+data.setCell(8, 3, 4715);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'reports_queryhistory')
+data.setCell(9, 2, 'com.qa.tests.DataExchangeAdmin')
+data.setCell(9, 3, 4282);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'reports_queryhistoryfiltered')
+data.setCell(10, 2, 'com.qa.tests.DataExchangeAdmin')
+data.setCell(10, 3, 4204);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'downloadbatchdetail')
+data.setCell(11, 2, 'com.qa.tests.DataExchangeAdmin')
+data.setCell(11, 3, 4075);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'AdminDashboard')
+data.setCell(12, 2, 'com.qa.tests.DataExchangeAdmin')
+data.setCell(12, 3, 3837);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'workflows')
+data.setCell(13, 2, 'com.qa.tests.DataExchangeAdmin')
+data.setCell(13, 3, 3325);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'alertmessage')
+data.setCell(14, 2, 'com.qa.tests.DataExchangeAdmin')
+data.setCell(14, 3, 3303);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'monthlyindividual')
+data.setCell(15, 2, 'com.qa.tests.DataExchangeAdmin')
+data.setCell(15, 3, 3300);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'individualsearch')
+data.setCell(16, 2, 'com.qa.tests.DataExchangeAdmin')
+data.setCell(16, 3, 3298);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'searchreason')
+data.setCell(17, 2, 'com.qa.tests.DataExchangeAdmin')
+data.setCell(17, 3, 3278);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'reports_seaechesperformedbyuser')
+data.setCell(18, 2, 'com.qa.tests.DataExchangeAdmin')
+data.setCell(18, 3, 3187);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'monthlyentity')
+data.setCell(19, 2, 'com.qa.tests.DataExchangeAdmin')
+data.setCell(19, 3, 3110);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'Admin_APIConnectivity')
+data.setCell(20, 2, 'com.qa.tests.DataExchangeAdmin')
+data.setCell(20, 3, 3110);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'reports_entitydetails')
+data.setCell(21, 2, 'com.qa.tests.DataExchangeAdmin')
+data.setCell(21, 3, 3062);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'entitysearch')
+data.setCell(22, 2, 'com.qa.tests.DataExchangeAdmin')
+data.setCell(22, 3, 3048);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'searchreasondetail')
+data.setCell(23, 2, 'com.qa.tests.DataExchangeAdmin')
+data.setCell(23, 3, 3032);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'workflow_method')
+data.setCell(24, 2, 'com.qa.tests.DataExchangeAdmin')
+data.setCell(24, 3, 3024);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'searchreasonsusers')
+data.setCell(25, 2, 'com.qa.tests.DataExchangeAdmin')
+data.setCell(25, 3, 3014);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'reports_newaccounts')
+data.setCell(26, 2, 'com.qa.tests.DataExchangeAdmin')
+data.setCell(26, 3, 2519);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'CreateSysyemUser')
+data.setCell(27, 2, 'com.qa.tests.DataExchangeAdmin')
+data.setCell(27, 3, 2007);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'Admin_IsUserPresent')
+data.setCell(28, 2, 'com.qa.tests.DataExchangeAdmin')
+data.setCell(28, 3, 1908);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'AgencyDistribution')
+data.setCell(29, 2, 'com.qa.tests.DataExchangeAdmin')
+data.setCell(29, 3, 1882);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'EnableDisableSystemUser')
+data.setCell(30, 2, 'com.qa.tests.DataExchangeAdmin')
+data.setCell(30, 3, 1489);
+data.setCell(31, 0, 31)
+data.setCell(31, 1, 'UpdateSystemUser')
+data.setCell(31, 2, 'com.qa.tests.DataExchangeAdmin')
+data.setCell(31, 3, 923);
+data.setCell(32, 0, 32)
+data.setCell(32, 1, 'batchdetail')
+data.setCell(32, 2, 'com.qa.tests.DataExchangeAdmin')
+data.setCell(32, 3, 902);
+data.setCell(33, 0, 33)
+data.setCell(33, 1, 'AgencyAll')
+data.setCell(33, 2, 'com.qa.tests.DataExchangeAdmin')
+data.setCell(33, 3, 867);
+data.setCell(34, 0, 34)
+data.setCell(34, 1, 'savebatchdetail')
+data.setCell(34, 2, 'com.qa.tests.DataExchangeAdmin')
+data.setCell(34, 3, 861);
+data.setCell(35, 0, 35)
+data.setCell(35, 1, 'reference_agency')
+data.setCell(35, 2, 'com.qa.tests.DataExchangeAdmin')
+data.setCell(35, 3, 855);
+data.setCell(36, 0, 36)
+data.setCell(36, 1, 'batch_fileupload')
+data.setCell(36, 2, 'com.qa.tests.DataExchangeAdmin')
+data.setCell(36, 3, 853);
+data.setCell(37, 0, 37)
+data.setCell(37, 1, 'batch_statusupdate')
+data.setCell(37, 2, 'com.qa.tests.DataExchangeAdmin')
+data.setCell(37, 3, 851);
+data.setCell(38, 0, 38)
+data.setCell(38, 1, 'reports_landing')
+data.setCell(38, 2, 'com.qa.tests.DataExchangeAdmin')
+data.setCell(38, 3, 838);
+data.setCell(39, 0, 39)
+data.setCell(39, 1, 'save_workflowmthod')
+data.setCell(39, 2, 'com.qa.tests.DataExchangeAdmin')
+data.setCell(39, 3, 836);
+data.setCell(40, 0, 40)
+data.setCell(40, 1, 'batch_downloadfile')
+data.setCell(40, 2, 'com.qa.tests.DataExchangeAdmin')
+data.setCell(40, 3, 835);
+data.setCell(41, 0, 41)
+data.setCell(41, 1, 'reference_role')
+data.setCell(41, 2, 'com.qa.tests.DataExchangeAdmin')
+data.setCell(41, 3, 828);
+data.setCell(42, 0, 42)
+data.setCell(42, 1, 'historicalbatches')
+data.setCell(42, 2, 'com.qa.tests.DataExchangeAdmin')
+data.setCell(42, 3, 825);
+data.setCell(43, 0, 43)
+data.setCell(43, 1, 'workflow_client')
+data.setCell(43, 2, 'com.qa.tests.DataExchangeAdmin')
+data.setCell(43, 3, 811);
+data.setCell(44, 0, 44)
+data.setCell(44, 1, 'reference_userdisablereason')
+data.setCell(44, 2, 'com.qa.tests.DataExchangeAdmin')
+data.setCell(44, 3, 808);
+data.setCell(45, 0, 45)
+data.setCell(45, 1, 'reeference_template')
+data.setCell(45, 2, 'com.qa.tests.DataExchangeAdmin')
+data.setCell(45, 3, 796);
+data.setCell(46, 0, 46)
+data.setCell(46, 1, 'linkuser')
+data.setCell(46, 2, 'com.qa.tests.DataExchangeAdmin')
+data.setCell(46, 3, 790);
+window.suiteTableData['IDEAL']= { tableData: data, tableDiv: 'times-div-IDEAL'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 5 minutes</span>
+              <div id="times-div-IDEAL">
+              </div> <!-- times-div-IDEAL -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-IDEAL" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for IDEAL</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-IDEAL" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-IDEAL" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qa.tests.DataExchangeAdmin</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Credentilas</span>
+                <span class="method-start">6 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">9263 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Admin_APIConnectivity</span>
+                <span class="method-start">9264 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">12381 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">AdminDashboard</span>
+                <span class="method-start">12384 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">16227 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Admin_SearchUsersByName</span>
+                <span class="method-start">16229 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">22048 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Admin_IsUserPresent</span>
+                <span class="method-start">22051 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">23967 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">CustomAttributes</span>
+                <span class="method-start">23970 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">130385 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">CreateSysyemUser</span>
+                <span class="method-start">130389 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">132402 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">UpdateSystemUser</span>
+                <span class="method-start">132405 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">133333 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">EnableDisableSystemUser</span>
+                <span class="method-start">133335 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">134827 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">AgencyDistribution</span>
+                <span class="method-start">134828 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">136717 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">AgencyAll</span>
+                <span class="method-start">136720 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">137592 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">batch_fileupload</span>
+                <span class="method-start">137594 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">138461 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">batch_statusupdate</span>
+                <span class="method-start">138464 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">139316 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">historicalbatches</span>
+                <span class="method-start">139317 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">140146 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">batch_downloadfile</span>
+                <span class="method-start">140149 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">140991 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">batchdetail</span>
+                <span class="method-start">140995 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">141901 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">downloadbatchdetail</span>
+                <span class="method-start">141902 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">145984 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">savebatchdetail</span>
+                <span class="method-start">145987 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">146858 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">alertmessage</span>
+                <span class="method-start">146860 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">150165 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">reference_agency</span>
+                <span class="method-start">150166 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">151023 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">reference_role</span>
+                <span class="method-start">151024 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">151854 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">reference_userdisablereason</span>
+                <span class="method-start">151858 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">152668 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">reeference_template</span>
+                <span class="method-start">152669 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">153468 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">reports_landing</span>
+                <span class="method-start">153472 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">154314 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">reports_failedlogins</span>
+                <span class="method-start">154317 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">173930 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">reports_activelogins</span>
+                <span class="method-start">173933 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">191292 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">reports_loginhistory</span>
+                <span class="method-start">191293 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">210367 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">reports_newaccounts</span>
+                <span class="method-start">210368 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">212892 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">reports_queryhistory</span>
+                <span class="method-start">212893 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">217179 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">reports_queryhistoryfiltered</span>
+                <span class="method-start">217180 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">221387 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">reports_seaechesperformedbyuser</span>
+                <span class="method-start">221389 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">224580 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">reports_multiauthorization</span>
+                <span class="method-start">224582 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">229299 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">reports_entitydetails</span>
+                <span class="method-start">229300 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">232366 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">reports_employeeworkinghours</span>
+                <span class="method-start">232368 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">258449 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">searchreason</span>
+                <span class="method-start">258449 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">261728 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">searchreasondetail</span>
+                <span class="method-start">261729 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">264768 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">linkuser</span>
+                <span class="method-start">264769 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">265561 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">searchreasonsusers</span>
+                <span class="method-start">265561 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">268583 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">individualsearch</span>
+                <span class="method-start">268584 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">271884 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">entitysearch</span>
+                <span class="method-start">271885 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">274937 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">monthlyentity</span>
+                <span class="method-start">274940 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">278052 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">monthlyindividual</span>
+                <span class="method-start">278053 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">281358 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">downloadreport</span>
+                <span class="method-start">281361 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">306582 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">workflows</span>
+                <span class="method-start">306583 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">309911 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">workflow_method</span>
+                <span class="method-start">309913 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">312941 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">save_workflowmthod</span>
+                <span class="method-start">312943 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">313781 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">workflow_client</span>
+                <span class="method-start">313782 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

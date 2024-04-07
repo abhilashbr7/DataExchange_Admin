@@ -1,0 +1,759 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="47" passed="38" failed="9" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-04-07T13:29:28 IST" name="IDEAL" finished-at="2024-04-07T13:34:43 IST" duration-ms="314628">
+    <groups>
+    </groups>
+    <test started-at="2024-04-07T13:29:28 IST" name="DataExchangeAdmin" finished-at="2024-04-07T13:34:43 IST" duration-ms="314628">
+      <class name="com.qa.tests.DataExchangeAdmin">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.tests.DataExchangeAdmin@4a7f959b]" started-at="2024-04-07T13:29:29 IST" name="setup" finished-at="2024-04-07T13:29:29 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Credentilas()[pri:1, instance:com.qa.tests.DataExchangeAdmin@4a7f959b]" started-at="2024-04-07T13:29:29 IST" name="Credentilas" finished-at="2024-04-07T13:29:38 IST" duration-ms="9246" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Credentilas -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.tests.DataExchangeAdmin@4a7f959b]" started-at="2024-04-07T13:29:38 IST" name="setup" finished-at="2024-04-07T13:29:38 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Admin_APIConnectivity()[pri:2, instance:com.qa.tests.DataExchangeAdmin@4a7f959b]" started-at="2024-04-07T13:29:38 IST" name="Admin_APIConnectivity" finished-at="2024-04-07T13:29:41 IST" duration-ms="3110" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Admin_APIConnectivity -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.tests.DataExchangeAdmin@4a7f959b]" started-at="2024-04-07T13:29:41 IST" name="setup" finished-at="2024-04-07T13:29:41 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="AdminDashboard()[pri:3, instance:com.qa.tests.DataExchangeAdmin@4a7f959b]" started-at="2024-04-07T13:29:41 IST" name="AdminDashboard" finished-at="2024-04-07T13:29:45 IST" duration-ms="3837" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AdminDashboard -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.tests.DataExchangeAdmin@4a7f959b]" started-at="2024-04-07T13:29:45 IST" name="setup" finished-at="2024-04-07T13:29:45 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Admin_SearchUsersByName()[pri:4, instance:com.qa.tests.DataExchangeAdmin@4a7f959b]" started-at="2024-04-07T13:29:45 IST" name="Admin_SearchUsersByName" finished-at="2024-04-07T13:29:51 IST" duration-ms="5810" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Admin_SearchUsersByName -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.tests.DataExchangeAdmin@4a7f959b]" started-at="2024-04-07T13:29:51 IST" name="setup" finished-at="2024-04-07T13:29:51 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Admin_IsUserPresent()[pri:5, instance:com.qa.tests.DataExchangeAdmin@4a7f959b]" started-at="2024-04-07T13:29:51 IST" name="Admin_IsUserPresent" finished-at="2024-04-07T13:29:52 IST" duration-ms="1908" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Admin_IsUserPresent -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.tests.DataExchangeAdmin@4a7f959b]" started-at="2024-04-07T13:29:52 IST" name="setup" finished-at="2024-04-07T13:29:52 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="CustomAttributes()[pri:6, instance:com.qa.tests.DataExchangeAdmin@4a7f959b]" started-at="2024-04-07T13:29:52 IST" name="CustomAttributes" finished-at="2024-04-07T13:31:39 IST" duration-ms="106408" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CustomAttributes -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.tests.DataExchangeAdmin@4a7f959b]" started-at="2024-04-07T13:31:39 IST" name="setup" finished-at="2024-04-07T13:31:39 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="CreateSysyemUser()[pri:7, instance:com.qa.tests.DataExchangeAdmin@4a7f959b]" started-at="2024-04-07T13:31:39 IST" name="CreateSysyemUser" finished-at="2024-04-07T13:31:41 IST" duration-ms="2007" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateSysyemUser -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.tests.DataExchangeAdmin@4a7f959b]" started-at="2024-04-07T13:31:41 IST" name="setup" finished-at="2024-04-07T13:31:41 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="UpdateSystemUser()[pri:8, instance:com.qa.tests.DataExchangeAdmin@4a7f959b]" started-at="2024-04-07T13:31:41 IST" name="UpdateSystemUser" finished-at="2024-04-07T13:31:42 IST" duration-ms="923" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UpdateSystemUser -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.tests.DataExchangeAdmin@4a7f959b]" started-at="2024-04-07T13:31:42 IST" name="setup" finished-at="2024-04-07T13:31:42 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="EnableDisableSystemUser()[pri:9, instance:com.qa.tests.DataExchangeAdmin@4a7f959b]" started-at="2024-04-07T13:31:42 IST" name="EnableDisableSystemUser" finished-at="2024-04-07T13:31:43 IST" duration-ms="1489" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EnableDisableSystemUser -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.tests.DataExchangeAdmin@4a7f959b]" started-at="2024-04-07T13:31:43 IST" name="setup" finished-at="2024-04-07T13:31:43 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="AgencyDistribution()[pri:10, instance:com.qa.tests.DataExchangeAdmin@4a7f959b]" started-at="2024-04-07T13:31:43 IST" name="AgencyDistribution" finished-at="2024-04-07T13:31:45 IST" duration-ms="1882" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AgencyDistribution -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.tests.DataExchangeAdmin@4a7f959b]" started-at="2024-04-07T13:31:45 IST" name="setup" finished-at="2024-04-07T13:31:45 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="AgencyAll()[pri:11, instance:com.qa.tests.DataExchangeAdmin@4a7f959b]" started-at="2024-04-07T13:31:45 IST" name="AgencyAll" finished-at="2024-04-07T13:31:46 IST" duration-ms="867" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AgencyAll -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.tests.DataExchangeAdmin@4a7f959b]" started-at="2024-04-07T13:31:46 IST" name="setup" finished-at="2024-04-07T13:31:46 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="batch_fileupload()[pri:12, instance:com.qa.tests.DataExchangeAdmin@4a7f959b]" started-at="2024-04-07T13:31:46 IST" name="batch_fileupload" finished-at="2024-04-07T13:31:47 IST" duration-ms="853" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[status code is not 200 expected [200] but found [400]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: status code is not 200 expected [200] but found [400]
+at org.testng.Assert.fail(Assert.java:97)
+at org.testng.Assert.assertEqualsImpl(Assert.java:136)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:839)
+at com.qa.tests.DataExchangeAdmin.batch_fileupload(DataExchangeAdmin.java:641)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- batch_fileupload -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.tests.DataExchangeAdmin@4a7f959b]" started-at="2024-04-07T13:31:47 IST" name="setup" finished-at="2024-04-07T13:31:47 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="batch_statusupdate()[pri:13, instance:com.qa.tests.DataExchangeAdmin@4a7f959b]" started-at="2024-04-07T13:31:47 IST" name="batch_statusupdate" finished-at="2024-04-07T13:31:48 IST" duration-ms="851" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- batch_statusupdate -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.tests.DataExchangeAdmin@4a7f959b]" started-at="2024-04-07T13:31:48 IST" name="setup" finished-at="2024-04-07T13:31:48 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="historicalbatches()[pri:14, instance:com.qa.tests.DataExchangeAdmin@4a7f959b]" started-at="2024-04-07T13:31:48 IST" name="historicalbatches" finished-at="2024-04-07T13:31:49 IST" duration-ms="825" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- historicalbatches -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.tests.DataExchangeAdmin@4a7f959b]" started-at="2024-04-07T13:31:49 IST" name="setup" finished-at="2024-04-07T13:31:49 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="batch_downloadfile()[pri:15, instance:com.qa.tests.DataExchangeAdmin@4a7f959b]" started-at="2024-04-07T13:31:49 IST" name="batch_downloadfile" finished-at="2024-04-07T13:31:50 IST" duration-ms="835" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[status code is not 200 expected [200] but found [405]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: status code is not 200 expected [200] but found [405]
+at org.testng.Assert.fail(Assert.java:97)
+at org.testng.Assert.assertEqualsImpl(Assert.java:136)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:839)
+at com.qa.tests.DataExchangeAdmin.batch_downloadfile(DataExchangeAdmin.java:764)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- batch_downloadfile -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.tests.DataExchangeAdmin@4a7f959b]" started-at="2024-04-07T13:31:50 IST" name="setup" finished-at="2024-04-07T13:31:50 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="batchdetail()[pri:16, instance:com.qa.tests.DataExchangeAdmin@4a7f959b]" started-at="2024-04-07T13:31:50 IST" name="batchdetail" finished-at="2024-04-07T13:31:50 IST" duration-ms="902" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- batchdetail -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.tests.DataExchangeAdmin@4a7f959b]" started-at="2024-04-07T13:31:50 IST" name="setup" finished-at="2024-04-07T13:31:50 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="downloadbatchdetail()[pri:17, instance:com.qa.tests.DataExchangeAdmin@4a7f959b]" started-at="2024-04-07T13:31:50 IST" name="downloadbatchdetail" finished-at="2024-04-07T13:31:54 IST" duration-ms="4075" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- downloadbatchdetail -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.tests.DataExchangeAdmin@4a7f959b]" started-at="2024-04-07T13:31:55 IST" name="setup" finished-at="2024-04-07T13:31:55 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="savebatchdetail()[pri:18, instance:com.qa.tests.DataExchangeAdmin@4a7f959b]" started-at="2024-04-07T13:31:55 IST" name="savebatchdetail" finished-at="2024-04-07T13:31:55 IST" duration-ms="861" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[status code is not 200 expected [200] but found [405]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: status code is not 200 expected [200] but found [405]
+at org.testng.Assert.fail(Assert.java:97)
+at org.testng.Assert.assertEqualsImpl(Assert.java:136)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:839)
+at com.qa.tests.DataExchangeAdmin.savebatchdetail(DataExchangeAdmin.java:830)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- savebatchdetail -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.tests.DataExchangeAdmin@4a7f959b]" started-at="2024-04-07T13:31:55 IST" name="setup" finished-at="2024-04-07T13:31:55 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="alertmessage()[pri:19, instance:com.qa.tests.DataExchangeAdmin@4a7f959b]" started-at="2024-04-07T13:31:55 IST" name="alertmessage" finished-at="2024-04-07T13:31:59 IST" duration-ms="3303" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- alertmessage -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.tests.DataExchangeAdmin@4a7f959b]" started-at="2024-04-07T13:31:59 IST" name="setup" finished-at="2024-04-07T13:31:59 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="reference_agency()[pri:20, instance:com.qa.tests.DataExchangeAdmin@4a7f959b]" started-at="2024-04-07T13:31:59 IST" name="reference_agency" finished-at="2024-04-07T13:32:00 IST" duration-ms="855" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reference_agency -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.tests.DataExchangeAdmin@4a7f959b]" started-at="2024-04-07T13:32:00 IST" name="setup" finished-at="2024-04-07T13:32:00 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="reference_role()[pri:21, instance:com.qa.tests.DataExchangeAdmin@4a7f959b]" started-at="2024-04-07T13:32:00 IST" name="reference_role" finished-at="2024-04-07T13:32:00 IST" duration-ms="828" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reference_role -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.tests.DataExchangeAdmin@4a7f959b]" started-at="2024-04-07T13:32:00 IST" name="setup" finished-at="2024-04-07T13:32:00 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="reference_userdisablereason()[pri:22, instance:com.qa.tests.DataExchangeAdmin@4a7f959b]" started-at="2024-04-07T13:32:00 IST" name="reference_userdisablereason" finished-at="2024-04-07T13:32:01 IST" duration-ms="808" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reference_userdisablereason -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.tests.DataExchangeAdmin@4a7f959b]" started-at="2024-04-07T13:32:01 IST" name="setup" finished-at="2024-04-07T13:32:01 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="reeference_template()[pri:23, instance:com.qa.tests.DataExchangeAdmin@4a7f959b]" started-at="2024-04-07T13:32:01 IST" name="reeference_template" finished-at="2024-04-07T13:32:02 IST" duration-ms="796" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reeference_template -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.tests.DataExchangeAdmin@4a7f959b]" started-at="2024-04-07T13:32:02 IST" name="setup" finished-at="2024-04-07T13:32:02 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="reports_landing()[pri:24, instance:com.qa.tests.DataExchangeAdmin@4a7f959b]" started-at="2024-04-07T13:32:02 IST" name="reports_landing" finished-at="2024-04-07T13:32:03 IST" duration-ms="838" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reports_landing -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.tests.DataExchangeAdmin@4a7f959b]" started-at="2024-04-07T13:32:03 IST" name="setup" finished-at="2024-04-07T13:32:03 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="reports_failedlogins()[pri:25, instance:com.qa.tests.DataExchangeAdmin@4a7f959b]" started-at="2024-04-07T13:32:03 IST" name="reports_failedlogins" finished-at="2024-04-07T13:32:22 IST" duration-ms="19609" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reports_failedlogins -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.tests.DataExchangeAdmin@4a7f959b]" started-at="2024-04-07T13:32:22 IST" name="setup" finished-at="2024-04-07T13:32:22 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="reports_activelogins()[pri:26, instance:com.qa.tests.DataExchangeAdmin@4a7f959b]" started-at="2024-04-07T13:32:22 IST" name="reports_activelogins" finished-at="2024-04-07T13:32:40 IST" duration-ms="17354" status="FAIL">
+          <exception class="org.json.JSONException">
+            <message>
+              <![CDATA[JSONArray[0] not found.]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.json.JSONException: JSONArray[0] not found.
+at org.json.JSONArray.get(JSONArray.java:264)
+at com.qa.util.TestUtil.getValueByjpath(TestUtil.java:16)
+at com.qa.tests.DataExchangeAdmin.reports_activelogins(DataExchangeAdmin.java:1057)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.json.JSONException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reports_activelogins -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.tests.DataExchangeAdmin@4a7f959b]" started-at="2024-04-07T13:32:40 IST" name="setup" finished-at="2024-04-07T13:32:40 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="reports_loginhistory()[pri:27, instance:com.qa.tests.DataExchangeAdmin@4a7f959b]" started-at="2024-04-07T13:32:40 IST" name="reports_loginhistory" finished-at="2024-04-07T13:32:59 IST" duration-ms="19072" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reports_loginhistory -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.tests.DataExchangeAdmin@4a7f959b]" started-at="2024-04-07T13:32:59 IST" name="setup" finished-at="2024-04-07T13:32:59 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="reports_newaccounts()[pri:28, instance:com.qa.tests.DataExchangeAdmin@4a7f959b]" started-at="2024-04-07T13:32:59 IST" name="reports_newaccounts" finished-at="2024-04-07T13:33:01 IST" duration-ms="2519" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reports_newaccounts -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.tests.DataExchangeAdmin@4a7f959b]" started-at="2024-04-07T13:33:01 IST" name="setup" finished-at="2024-04-07T13:33:01 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="reports_queryhistory()[pri:29, instance:com.qa.tests.DataExchangeAdmin@4a7f959b]" started-at="2024-04-07T13:33:01 IST" name="reports_queryhistory" finished-at="2024-04-07T13:33:06 IST" duration-ms="4282" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reports_queryhistory -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.tests.DataExchangeAdmin@4a7f959b]" started-at="2024-04-07T13:33:06 IST" name="setup" finished-at="2024-04-07T13:33:06 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="reports_queryhistoryfiltered()[pri:30, instance:com.qa.tests.DataExchangeAdmin@4a7f959b]" started-at="2024-04-07T13:33:06 IST" name="reports_queryhistoryfiltered" finished-at="2024-04-07T13:33:10 IST" duration-ms="4204" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reports_queryhistoryfiltered -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.tests.DataExchangeAdmin@4a7f959b]" started-at="2024-04-07T13:33:10 IST" name="setup" finished-at="2024-04-07T13:33:10 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="reports_seaechesperformedbyuser()[pri:31, instance:com.qa.tests.DataExchangeAdmin@4a7f959b]" started-at="2024-04-07T13:33:10 IST" name="reports_seaechesperformedbyuser" finished-at="2024-04-07T13:33:13 IST" duration-ms="3187" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reports_seaechesperformedbyuser -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.tests.DataExchangeAdmin@4a7f959b]" started-at="2024-04-07T13:33:13 IST" name="setup" finished-at="2024-04-07T13:33:13 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="reports_multiauthorization()[pri:32, instance:com.qa.tests.DataExchangeAdmin@4a7f959b]" started-at="2024-04-07T13:33:13 IST" name="reports_multiauthorization" finished-at="2024-04-07T13:33:18 IST" duration-ms="4715" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reports_multiauthorization -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.tests.DataExchangeAdmin@4a7f959b]" started-at="2024-04-07T13:33:18 IST" name="setup" finished-at="2024-04-07T13:33:18 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="reports_entitydetails()[pri:33, instance:com.qa.tests.DataExchangeAdmin@4a7f959b]" started-at="2024-04-07T13:33:18 IST" name="reports_entitydetails" finished-at="2024-04-07T13:33:21 IST" duration-ms="3062" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reports_entitydetails -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.tests.DataExchangeAdmin@4a7f959b]" started-at="2024-04-07T13:33:21 IST" name="setup" finished-at="2024-04-07T13:33:21 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="reports_employeeworkinghours()[pri:34, instance:com.qa.tests.DataExchangeAdmin@4a7f959b]" started-at="2024-04-07T13:33:21 IST" name="reports_employeeworkinghours" finished-at="2024-04-07T13:33:47 IST" duration-ms="26077" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reports_employeeworkinghours -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.tests.DataExchangeAdmin@4a7f959b]" started-at="2024-04-07T13:33:47 IST" name="setup" finished-at="2024-04-07T13:33:47 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="searchreason()[pri:35, instance:com.qa.tests.DataExchangeAdmin@4a7f959b]" started-at="2024-04-07T13:33:47 IST" name="searchreason" finished-at="2024-04-07T13:33:50 IST" duration-ms="3278" status="FAIL">
+          <exception class="org.json.JSONException">
+            <message>
+              <![CDATA[JSONArray[0] not found.]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.json.JSONException: JSONArray[0] not found.
+at org.json.JSONArray.get(JSONArray.java:264)
+at com.qa.util.TestUtil.getValueByjpath(TestUtil.java:16)
+at com.qa.tests.DataExchangeAdmin.searchreason(DataExchangeAdmin.java:1278)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.json.JSONException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchreason -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.tests.DataExchangeAdmin@4a7f959b]" started-at="2024-04-07T13:33:50 IST" name="setup" finished-at="2024-04-07T13:33:50 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="searchreasondetail()[pri:36, instance:com.qa.tests.DataExchangeAdmin@4a7f959b]" started-at="2024-04-07T13:33:50 IST" name="searchreasondetail" finished-at="2024-04-07T13:33:53 IST" duration-ms="3032" status="FAIL">
+          <exception class="org.json.JSONException">
+            <message>
+              <![CDATA[JSONArray[0] not found.]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.json.JSONException: JSONArray[0] not found.
+at org.json.JSONArray.get(JSONArray.java:264)
+at com.qa.util.TestUtil.getValueByjpath(TestUtil.java:16)
+at com.qa.tests.DataExchangeAdmin.searchreasondetail(DataExchangeAdmin.java:1306)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.json.JSONException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchreasondetail -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.tests.DataExchangeAdmin@4a7f959b]" started-at="2024-04-07T13:33:53 IST" name="setup" finished-at="2024-04-07T13:33:53 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="linkuser()[pri:37, instance:com.qa.tests.DataExchangeAdmin@4a7f959b]" started-at="2024-04-07T13:33:53 IST" name="linkuser" finished-at="2024-04-07T13:33:54 IST" duration-ms="790" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[status code is not 200 expected [200] but found [400]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: status code is not 200 expected [200] but found [400]
+at org.testng.Assert.fail(Assert.java:97)
+at org.testng.Assert.assertEqualsImpl(Assert.java:136)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:839)
+at com.qa.tests.DataExchangeAdmin.linkuser(DataExchangeAdmin.java:1326)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- linkuser -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.tests.DataExchangeAdmin@4a7f959b]" started-at="2024-04-07T13:33:54 IST" name="setup" finished-at="2024-04-07T13:33:54 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="searchreasonsusers()[pri:38, instance:com.qa.tests.DataExchangeAdmin@4a7f959b]" started-at="2024-04-07T13:33:54 IST" name="searchreasonsusers" finished-at="2024-04-07T13:33:57 IST" duration-ms="3014" status="FAIL">
+          <exception class="org.json.JSONException">
+            <message>
+              <![CDATA[JSONArray[0] not found.]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.json.JSONException: JSONArray[0] not found.
+at org.json.JSONArray.get(JSONArray.java:264)
+at com.qa.util.TestUtil.getValueByjpath(TestUtil.java:16)
+at com.qa.tests.DataExchangeAdmin.searchreasonsusers(DataExchangeAdmin.java:1363)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.json.JSONException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchreasonsusers -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.tests.DataExchangeAdmin@4a7f959b]" started-at="2024-04-07T13:33:57 IST" name="setup" finished-at="2024-04-07T13:33:57 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="individualsearch()[pri:39, instance:com.qa.tests.DataExchangeAdmin@4a7f959b]" started-at="2024-04-07T13:33:57 IST" name="individualsearch" finished-at="2024-04-07T13:34:00 IST" duration-ms="3298" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- individualsearch -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.tests.DataExchangeAdmin@4a7f959b]" started-at="2024-04-07T13:34:00 IST" name="setup" finished-at="2024-04-07T13:34:00 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="entitysearch()[pri:40, instance:com.qa.tests.DataExchangeAdmin@4a7f959b]" started-at="2024-04-07T13:34:00 IST" name="entitysearch" finished-at="2024-04-07T13:34:03 IST" duration-ms="3048" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- entitysearch -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.tests.DataExchangeAdmin@4a7f959b]" started-at="2024-04-07T13:34:03 IST" name="setup" finished-at="2024-04-07T13:34:03 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="monthlyentity()[pri:41, instance:com.qa.tests.DataExchangeAdmin@4a7f959b]" started-at="2024-04-07T13:34:03 IST" name="monthlyentity" finished-at="2024-04-07T13:34:07 IST" duration-ms="3110" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- monthlyentity -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.tests.DataExchangeAdmin@4a7f959b]" started-at="2024-04-07T13:34:07 IST" name="setup" finished-at="2024-04-07T13:34:07 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="monthlyindividual()[pri:42, instance:com.qa.tests.DataExchangeAdmin@4a7f959b]" started-at="2024-04-07T13:34:07 IST" name="monthlyindividual" finished-at="2024-04-07T13:34:10 IST" duration-ms="3300" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- monthlyindividual -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.tests.DataExchangeAdmin@4a7f959b]" started-at="2024-04-07T13:34:10 IST" name="setup" finished-at="2024-04-07T13:34:10 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="downloadreport()[pri:43, instance:com.qa.tests.DataExchangeAdmin@4a7f959b]" started-at="2024-04-07T13:34:10 IST" name="downloadreport" finished-at="2024-04-07T13:34:35 IST" duration-ms="25218" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- downloadreport -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.tests.DataExchangeAdmin@4a7f959b]" started-at="2024-04-07T13:34:35 IST" name="setup" finished-at="2024-04-07T13:34:35 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="workflows()[pri:44, instance:com.qa.tests.DataExchangeAdmin@4a7f959b]" started-at="2024-04-07T13:34:35 IST" name="workflows" finished-at="2024-04-07T13:34:38 IST" duration-ms="3325" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- workflows -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.tests.DataExchangeAdmin@4a7f959b]" started-at="2024-04-07T13:34:38 IST" name="setup" finished-at="2024-04-07T13:34:38 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="workflow_method()[pri:45, instance:com.qa.tests.DataExchangeAdmin@4a7f959b]" started-at="2024-04-07T13:34:38 IST" name="workflow_method" finished-at="2024-04-07T13:34:41 IST" duration-ms="3024" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- workflow_method -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.tests.DataExchangeAdmin@4a7f959b]" started-at="2024-04-07T13:34:41 IST" name="setup" finished-at="2024-04-07T13:34:41 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="save_workflowmthod()[pri:46, instance:com.qa.tests.DataExchangeAdmin@4a7f959b]" started-at="2024-04-07T13:34:41 IST" name="save_workflowmthod" finished-at="2024-04-07T13:34:42 IST" duration-ms="836" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[status code is not 200 expected [200] but found [405]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: status code is not 200 expected [200] but found [405]
+at org.testng.Assert.fail(Assert.java:97)
+at org.testng.Assert.assertEqualsImpl(Assert.java:136)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:839)
+at com.qa.tests.DataExchangeAdmin.save_workflowmthod(DataExchangeAdmin.java:1540)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- save_workflowmthod -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.tests.DataExchangeAdmin@4a7f959b]" started-at="2024-04-07T13:34:42 IST" name="setup" finished-at="2024-04-07T13:34:42 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="workflow_client()[pri:47, instance:com.qa.tests.DataExchangeAdmin@4a7f959b]" started-at="2024-04-07T13:34:42 IST" name="workflow_client" finished-at="2024-04-07T13:34:43 IST" duration-ms="811" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- workflow_client -->
+      </class> <!-- com.qa.tests.DataExchangeAdmin -->
+    </test> <!-- DataExchangeAdmin -->
+  </suite> <!-- IDEAL -->
+</testng-results>
