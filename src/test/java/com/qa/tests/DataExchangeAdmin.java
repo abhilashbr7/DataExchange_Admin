@@ -32,12 +32,12 @@ public class DataExchangeAdmin extends TestBase implements IExecutionListener {
 	String url;
 	String token,credentials,APIConnectivity,AdminDashboard,SearchUsersbyName,UserPresent,CustomAttributes,SystmUser,UpdateSystemUser,EnableDisableSystemUser,AgencyDistribution;
 	String agency;
-	String batchfileupload,batchstatusupdate,historicalbatches,batchdownloadfile,batchdetails,downloadbatchdetails,savebatchdetail;
-	String alertmessage,referenceagency,referencerole,userdisablereason,referencetemplate;
+	String batchfileupload,batchstatusupdate,historicalbatches,batchdownloadfile,batchdetails,downloadbatchdetails,savebatchdetail,clients;
+	String mappings,alertmessage,referenceagency,referencerole,userdisablereason,referencetemplate;
 	String landing,failedlogins,activelogins,loginhistory,newaccounts,queryhistory,queryhistoryfiltered,seaechesperformedbyuser,multiauthorization,entitydetails,employeeworkinghours;
 	String searchreasons,searchreasonsdetails,linkusers,searchreasonsusers;
 	String individualsearchdata,entitysearchdata,monthlyentitysearchdata,monthlyindividualsearchdata,Downloadusagemetricsreport;
-	String totalworkflows,methodfields,savemethodfields,workflowbyclient;
+	String workflows,totalworkflows,methodfields,savemethodfields,workflowbyclient;
 	CloseableHttpResponse closeableHttpResponse;
 
 	@BeforeMethod
@@ -91,6 +91,15 @@ public class DataExchangeAdmin extends TestBase implements IExecutionListener {
 		
 		savebatchdetail = prop.getProperty("savebatchdetail");
 		savebatchdetail = serviceurl + savebatchdetail;
+		
+//		Client
+		clients = prop.getProperty("clients");
+		clients = serviceurl + clients;
+		
+//		mappings
+		mappings = prop.getProperty("mappings");
+		mappings = serviceurl + mappings;
+		
 		
 //		Reference
 		alertmessage = prop.getProperty("alertmessage");
@@ -163,9 +172,18 @@ public class DataExchangeAdmin extends TestBase implements IExecutionListener {
 		methodfields = serviceurl + methodfields;
 		savemethodfields = prop.getProperty("savemethodfields");
 		savemethodfields = serviceurl + savemethodfields;
+		
+	
+//		workflows
+		workflows = prop.getProperty("workflows");
+		workflows = serviceurl + workflows;
+		
+		totalworkflows = prop.getProperty("totalworkflows");
+		totalworkflows = serviceurl + totalworkflows;
+		
 		workflowbyclient = prop.getProperty("workflowbyclient");
 		workflowbyclient = serviceurl + workflowbyclient;
-	
+		
 			
 		
 	}
@@ -362,7 +380,6 @@ public class DataExchangeAdmin extends TestBase implements IExecutionListener {
 		restclient = new RestClient();
 		HashMap<String, String> headermap = new HashMap<String, String>();
 		headermap.put("content-type", "application/json");
-		headermap.put("sortColumn", "dolor aute");
 		headermap.put("ascending", "true");
 		headermap.put("Authorization", "Bearer " + token);
 		
@@ -391,62 +408,62 @@ public class DataExchangeAdmin extends TestBase implements IExecutionListener {
 
 	}	
 	
-	@Test(priority = 7)
-	public void CreateSysyemUser() throws ClientProtocolException, IOException {
-		restclient = new RestClient();
-		HashMap<String, String> headermap = new HashMap<String, String>();
-		headermap.put("content-type", "application/json");
-		headermap.put("firstName", "dolor aute");
-		headermap.put("lastName", "dolor aute");
-		headermap.put("mothersLastName", "dolor aute");
-		headermap.put("middleInitials", "dolor aute");
-		headermap.put("displayName", "dolor aute");
-		headermap.put("mail", "dolor aute");
-		headermap.put("agency", "dolor aute");
-		headermap.put("role", "dolor aute");
-		headermap.put("Authorization", "Bearer " + token);
-		
-
-		closeableHttpResponse = restclient.post_nobody(SystmUser, headermap);
-
-		int statuscode = closeableHttpResponse.getStatusLine().getStatusCode();
-		System.out.println("Status code:" + statuscode);
-		Assert.assertEquals(statuscode, RESPONSE_STATUS_CODE_200, "status code is not 200");
-
-		// //2.Json String
-		String responsestring = EntityUtils.toString(closeableHttpResponse.getEntity(), "UTF-8");
-		JSONObject responseJson = new JSONObject(responsestring);
-		System.out.println("JSON response from API---->" + responseJson);
-
-//		// To get value from JSON Array
-//		SearchReasonId = TestUtil.getValueByjpath(responseJson, "/searchReasons[0]/id");
-//		System.out.println("Response From Json is : " + SearchReasonId);
-
-		// 3.All Headers
-		Header[] headersArray = closeableHttpResponse.getAllHeaders();
-		HashMap<String, String> allHeaders = new HashMap<String, String>();
-
-		for (Header header : headersArray) {
-		allHeaders.put(header.getName(), header.getValue());
-
-		}
-		System.out.println("Headers Array-->" + allHeaders);
-
-	}
+//	@Test(priority = 7)
+//	public void CreateSysyemUser() throws ClientProtocolException, IOException {
+//		restclient = new RestClient();
+//		HashMap<String, String> headermap = new HashMap<String, String>();
+//		headermap.put("content-type", "application/json");
+//		headermap.put("firstName", "dolor aute");
+//		headermap.put("lastName", "dolor aute");
+//		headermap.put("mothersLastName", "dolor aute");
+//		headermap.put("middleInitials", "dolor aute");
+//		headermap.put("displayName", "dolor aute");
+//		headermap.put("mail", "dolor aute");
+//		headermap.put("agency", "dolor aute");
+//		headermap.put("role", "dolor aute");
+//		headermap.put("Authorization", "Bearer " + token);
+//		
+//
+//		closeableHttpResponse = restclient.post_nobody(SystmUser, headermap);
+//
+//		int statuscode = closeableHttpResponse.getStatusLine().getStatusCode();
+//		System.out.println("Status code:" + statuscode);
+//		Assert.assertEquals(statuscode, RESPONSE_STATUS_CODE_200, "status code is not 200");
+//
+//		// //2.Json String
+//		String responsestring = EntityUtils.toString(closeableHttpResponse.getEntity(), "UTF-8");
+//		JSONObject responseJson = new JSONObject(responsestring);
+//		System.out.println("JSON response from API---->" + responseJson);
+//
+////		// To get value from JSON Array
+////		SearchReasonId = TestUtil.getValueByjpath(responseJson, "/searchReasons[0]/id");
+////		System.out.println("Response From Json is : " + SearchReasonId);
+//
+//		// 3.All Headers
+//		Header[] headersArray = closeableHttpResponse.getAllHeaders();
+//		HashMap<String, String> allHeaders = new HashMap<String, String>();
+//
+//		for (Header header : headersArray) {
+//		allHeaders.put(header.getName(), header.getValue());
+//
+//		}
+//		System.out.println("Headers Array-->" + allHeaders);
+//
+//	}
 
 	@Test(priority = 8)
 	public void UpdateSystemUser() throws ClientProtocolException, IOException {
 		restclient = new RestClient();
 		HashMap<String, String> headermap = new HashMap<String, String>();
 		headermap.put("content-type", "application/json");
-		headermap.put("firstName", "dolor aute");
-		headermap.put("lastName", "dolor aute");
-		headermap.put("mothersLastName", "dolor aute");
-		headermap.put("middleInitials", "dolor aute");
-		headermap.put("displayName", "dolor aute");
-		headermap.put("mail", "dolor aute");
-		headermap.put("agency", "dolor aute");
-		headermap.put("role", "dolor aute");
+//		headermap.put("firstName", "dolor aute");
+//		headermap.put("lastName", "dolor aute");
+//		headermap.put("mothersLastName", "dolor aute");
+//		headermap.put("middleInitials", "dolor aute");
+//		headermap.put("displayName", "dolor aute");
+		headermap.put("mail", "sabol80073@acname.com");
+		headermap.put("agency", "TSDEV");
+		headermap.put("role", "HR");
 		headermap.put("Authorization", "Bearer " + token);
 
 		closeableHttpResponse = restclient.post_nobody(UpdateSystemUser, headermap);
@@ -461,10 +478,9 @@ public class DataExchangeAdmin extends TestBase implements IExecutionListener {
 		System.out.println("JSON response from API---->" + responseJson);
 
 //		// To get value from JSON Array
-//		String InputParametername = TestUtil.getValueByjpath(responseJson, "/parameters[0]/name");
-//		System.out.println("Tickets Response From Json is : " + InputParametername);
-//		String InputParameterrequired = TestUtil.getValueByjpath(responseJson, "/parameters[0]/required");
-//		System.out.println("Tickets Response From Json is : " + InputParameterrequired);
+		String actual_status = TestUtil.getValueByjpath(responseJson, "/status");
+		System.out.println("Tickets Response From Json is : " + actual_status);
+
 
 		// 3.All Headers
 		Header[] headersArray = closeableHttpResponse.getAllHeaders();
@@ -661,52 +677,52 @@ public class DataExchangeAdmin extends TestBase implements IExecutionListener {
 
 	}
 	
-	@Test(priority = 13)
-	public void batch_statusupdate() throws ClientProtocolException, IOException {
-		restclient = new RestClient();
-		HashMap<String, String> headermap = new HashMap<String, String>();
-		headermap.put("content-type", "application/json");
-		headermap.put("SearchType", "dolor aute");
-		headermap.put("SearchReasonId", "33631227");
-		headermap.put("ClientId", "33631227");
-		headermap.put("WorkflowId", "33631227");
-		headermap.put("RequestingAgency", "dolor aute");
-		headermap.put("BatchName", "dolor aute");
-		headermap.put("BatchId", "33631227");
-		headermap.put("status", "dolor aute");
-		headermap.put("Authorization", "Bearer " + token);
-		
-		String jsonpayload = "{\r\n"
-				+ "  \"searchReasonId\": 10199\r\n"
-				+ "}";
-		
-
-		closeableHttpResponse = restclient.post(batchstatusupdate,jsonpayload, headermap);
-
-		int statuscode = closeableHttpResponse.getStatusLine().getStatusCode();
-		System.out.println("Status code:" + statuscode);
-		Assert.assertEquals(statuscode, RESPONSE_STATUS_CODE_200, "status code is not 200");
-
-		// //2.Json String
-		String responsestring = EntityUtils.toString(closeableHttpResponse.getEntity(), "UTF-8");
-		JSONObject responseJson = new JSONObject(responsestring);
-		System.out.println("JSON response from API---->" + responseJson);
-
-//		// To get value from JSON Array
-//		String citizen_referenceId_Shipfees = TestUtil.getValueByjpath(responseJson, "/citizen_referenceId");
-//		System.out.println("Ticket Transaction message Response From Json is : " + citizen_referenceId_ShipRenewal);
-
-		// 3.All Headers
-		Header[] headersArray = closeableHttpResponse.getAllHeaders();
-		HashMap<String, String> allHeaders = new HashMap<String, String>();
-
-		for (Header header : headersArray) {
-		allHeaders.put(header.getName(), header.getValue());
-
-		}
-		System.out.println("Headers Array-->" + allHeaders);
-
-	}
+//	@Test(priority = 13)
+//	public void batch_statusupdate() throws ClientProtocolException, IOException {
+//		restclient = new RestClient();
+//		HashMap<String, String> headermap = new HashMap<String, String>();
+//		headermap.put("content-type", "application/json");
+//		headermap.put("SearchType", "dolor aute");
+//		headermap.put("SearchReasonId", "33631227");
+//		headermap.put("ClientId", "33631227");
+//		headermap.put("WorkflowId", "33631227");
+//		headermap.put("RequestingAgency", "dolor aute");
+//		headermap.put("BatchName", "dolor aute");
+//		headermap.put("BatchId", "33631227");
+//		headermap.put("status", "dolor aute");
+//		headermap.put("Authorization", "Bearer " + token);
+//		
+//		String jsonpayload = "{\r\n"
+//				+ "  \"searchReasonId\": 10199\r\n"
+//				+ "}";
+//		
+//
+//		closeableHttpResponse = restclient.post(batchstatusupdate,jsonpayload, headermap);
+//
+//		int statuscode = closeableHttpResponse.getStatusLine().getStatusCode();
+//		System.out.println("Status code:" + statuscode);
+//		Assert.assertEquals(statuscode, RESPONSE_STATUS_CODE_200, "status code is not 200");
+//
+//		// //2.Json String
+//		String responsestring = EntityUtils.toString(closeableHttpResponse.getEntity(), "UTF-8");
+//		JSONObject responseJson = new JSONObject(responsestring);
+//		System.out.println("JSON response from API---->" + responseJson);
+//
+////		// To get value from JSON Array
+////		String citizen_referenceId_Shipfees = TestUtil.getValueByjpath(responseJson, "/citizen_referenceId");
+////		System.out.println("Ticket Transaction message Response From Json is : " + citizen_referenceId_ShipRenewal);
+//
+//		// 3.All Headers
+//		Header[] headersArray = closeableHttpResponse.getAllHeaders();
+//		HashMap<String, String> allHeaders = new HashMap<String, String>();
+//
+//		for (Header header : headersArray) {
+//		allHeaders.put(header.getName(), header.getValue());
+//
+//		}
+//		System.out.println("Headers Array-->" + allHeaders);
+//
+//	}
 	
 	
 	@Test(priority = 14)
@@ -814,16 +830,14 @@ public class DataExchangeAdmin extends TestBase implements IExecutionListener {
 	}
 	
 	@Test(priority = 18)
-	public void savebatchdetail() throws ClientProtocolException, IOException {
+	public void client() throws ClientProtocolException, IOException {
 		restclient = new RestClient();
 		HashMap<String, String> headermap = new HashMap<String, String>();
 		headermap.put("content-type", "application/json");
-		headermap.put("BatchId", "33631227");
-		headermap.put("SearchType", "dolor aute");
 		headermap.put("Authorization", "Bearer " + token);
 
 		
-		closeableHttpResponse = restclient.get(savebatchdetail,headermap);
+		closeableHttpResponse = restclient.get(clients,headermap);
 
 		int statuscode = closeableHttpResponse.getStatusLine().getStatusCode();
 		System.out.println("Status code:" + statuscode);
@@ -833,12 +847,72 @@ public class DataExchangeAdmin extends TestBase implements IExecutionListener {
 		String responsestring = EntityUtils.toString(closeableHttpResponse.getEntity(), "UTF-8");
 		JSONObject responseJson = new JSONObject(responsestring);
 		System.out.println("JSON response from API---->" + responseJson);
+		
+//		// To get value from JSON Array
+		String ClientName = TestUtil.getValueByjpath(responseJson, "/clients/ClientName");
+		System.out.println("clients message Response From Json is : " + ClientName);
+		
+		String ClientId = TestUtil.getValueByjpath(responseJson, "/clients/ClientId");
+		System.out.println("clients message Response From Json is : " + ClientId);
+		
+		String ClientAgencyCode = TestUtil.getValueByjpath(responseJson, "/clients/ClientAgencyCode");
+		System.out.println("clients message Response From Json is : " + ClientAgencyCode);
+		
 	}
+	
+	@Test(priority = 18)
+	public void mapping() throws ClientProtocolException, IOException {
+		restclient = new RestClient();
+		HashMap<String, String> headermap = new HashMap<String, String>();
+		headermap.put("content-type", "application/json");
+		headermap.put("Authorization", "Bearer " + token);
+
+		
+		closeableHttpResponse = restclient.get(mappings,headermap);
+
+		int statuscode = closeableHttpResponse.getStatusLine().getStatusCode();
+		System.out.println("Status code:" + statuscode);
+		Assert.assertEquals(statuscode, RESPONSE_STATUS_CODE_200, "status code is not 200");
+
+		// //2.Json String
+		String responsestring = EntityUtils.toString(closeableHttpResponse.getEntity(), "UTF-8");
+		JSONObject responseJson = new JSONObject(responsestring);
+		System.out.println("JSON response from API---->" + responseJson);
+		
+//		// To get value from JSON Array
+		String mapping_status = TestUtil.getValueByjpath(responseJson, "/status");
+		System.out.println("mapping message Response From Json is : " + mapping_status);
+		
+
+	}
+	
+	
+//	@Test(priority = 18)
+//	public void savebatchdetail() throws ClientProtocolException, IOException {
+//		restclient = new RestClient();
+//		HashMap<String, String> headermap = new HashMap<String, String>();
+//		headermap.put("content-type", "application/json");
+//		headermap.put("BatchId", "33631227");
+//		headermap.put("SearchType", "dolor aute");
+//		headermap.put("Authorization", "Bearer " + token);
+//
+//		
+//		closeableHttpResponse = restclient.get(savebatchdetail,headermap);
+//
+//		int statuscode = closeableHttpResponse.getStatusLine().getStatusCode();
+//		System.out.println("Status code:" + statuscode);
+//		Assert.assertEquals(statuscode, RESPONSE_STATUS_CODE_200, "status code is not 200");
+//
+//		// //2.Json String
+//		String responsestring = EntityUtils.toString(closeableHttpResponse.getEntity(), "UTF-8");
+//		JSONObject responseJson = new JSONObject(responsestring);
+//		System.out.println("JSON response from API---->" + responseJson);
+//	}
 	
 	
 //	Reference
 	
-	@Test(priority = 19)
+	@Test(priority = 20)
 	public void alertmessage() throws ClientProtocolException, IOException {
 		restclient = new RestClient();
 		HashMap<String, String> headermap = new HashMap<String, String>();
@@ -859,7 +933,7 @@ public class DataExchangeAdmin extends TestBase implements IExecutionListener {
 	}
 
 
-	@Test(priority = 20)
+	@Test(priority = 21)
 	public void reference_agency() throws ClientProtocolException, IOException {
 		restclient = new RestClient();
 		HashMap<String, String> headermap = new HashMap<String, String>();
@@ -896,7 +970,7 @@ public class DataExchangeAdmin extends TestBase implements IExecutionListener {
 		System.out.println("Headers Array-->" + allHeaders);
 	}
 	
-	@Test(priority = 21)
+	@Test(priority = 22)
 	public void reference_role() throws ClientProtocolException, IOException {
 		restclient = new RestClient();
 		HashMap<String, String> headermap = new HashMap<String, String>();
@@ -927,7 +1001,7 @@ public class DataExchangeAdmin extends TestBase implements IExecutionListener {
 
 	}
 	
-	@Test(priority = 22)
+	@Test(priority = 23)
 	public void reference_userdisablereason() throws ClientProtocolException, IOException {
 		restclient = new RestClient();
 		HashMap<String, String> headermap = new HashMap<String, String>();
@@ -955,12 +1029,12 @@ public class DataExchangeAdmin extends TestBase implements IExecutionListener {
 
 	}
 	
-	@Test(priority = 23)
+	@Test(priority = 24)
 	public void reeference_template() throws ClientProtocolException, IOException {
 		restclient = new RestClient();
 		HashMap<String, String> headermap = new HashMap<String, String>();
 		headermap.put("content-type", "application/json");
-		headermap.put("name", "dolor aute");
+		headermap.put("name", "CitizenTemplate");
 		headermap.put("Authorization", "Bearer " + token);
 
 		
@@ -974,12 +1048,15 @@ public class DataExchangeAdmin extends TestBase implements IExecutionListener {
 		String responsestring = EntityUtils.toString(closeableHttpResponse.getEntity(), "UTF-8");
 		JSONObject responseJson = new JSONObject(responsestring);
 		System.out.println("JSON response from API---->" + responseJson);
+		
+		String filename = TestUtil.getValueByjpath(responseJson, "/filename");
+		System.out.println("Fee Response From Json is : " + filename);
 	}
 	
 	
 //	Reports
 	
-	@Test(priority = 24)
+	@Test(priority = 25)
 	public void reports_landing() throws ClientProtocolException, IOException {
 		restclient = new RestClient();
 		HashMap<String, String> headermap = new HashMap<String, String>();
@@ -1007,7 +1084,7 @@ public class DataExchangeAdmin extends TestBase implements IExecutionListener {
 
 	}
 	
-	@Test(priority = 25)
+	@Test(priority = 26)
 	public void reports_failedlogins() throws ClientProtocolException, IOException {
 		restclient = new RestClient();
 		HashMap<String, String> headermap = new HashMap<String, String>();
@@ -1034,7 +1111,9 @@ public class DataExchangeAdmin extends TestBase implements IExecutionListener {
 		System.out.println("Fee Response From Json is : " + reports_agency);
 		
 		}
-	@Test(priority = 26)
+	
+	
+	@Test(priority = 27)
 	public void reports_activelogins() throws ClientProtocolException, IOException {
 		restclient = new RestClient();
 		HashMap<String, String> headermap = new HashMap<String, String>();
@@ -1060,7 +1139,9 @@ public class DataExchangeAdmin extends TestBase implements IExecutionListener {
 		String reports_act_login_agency = TestUtil.getValueByjpath(responseJson, "/data[0]/agency");
 		System.out.println("Fee Response From Json is : " + reports_act_login_agency);
 	}
-	@Test(priority = 27)
+	
+	
+	@Test(priority = 28)
 	public void reports_loginhistory() throws ClientProtocolException, IOException {
 		restclient = new RestClient();
 		HashMap<String, String> headermap = new HashMap<String, String>();
@@ -1087,7 +1168,7 @@ public class DataExchangeAdmin extends TestBase implements IExecutionListener {
 		System.out.println("Fee Response From Json is : " + reports_loginhistory_agency);
 	}
 	
-	@Test(priority = 28)
+	@Test(priority = 29)
 	public void reports_newaccounts() throws ClientProtocolException, IOException {
 		restclient = new RestClient();
 		HashMap<String, String> headermap = new HashMap<String, String>();
@@ -1111,7 +1192,7 @@ public class DataExchangeAdmin extends TestBase implements IExecutionListener {
 		System.out.println("Fee Response From Json is : " + reports_acc);
 	}
 	
-	@Test(priority = 29)
+	@Test(priority = 30)
 	public void reports_queryhistory() throws ClientProtocolException, IOException {
 		restclient = new RestClient();
 		HashMap<String, String> headermap = new HashMap<String, String>();
@@ -1132,32 +1213,33 @@ public class DataExchangeAdmin extends TestBase implements IExecutionListener {
 		
 	}
 	
-	@Test(priority = 30)
-	public void reports_queryhistoryfiltered() throws ClientProtocolException, IOException {
-		restclient = new RestClient();
-		HashMap<String, String> headermap = new HashMap<String, String>();
-		headermap.put("content-type", "application/json");
-		headermap.put("Authorization", "Bearer " + token);
-
-		
-		closeableHttpResponse = restclient.get(queryhistoryfiltered,headermap);
-
-		int statuscode = closeableHttpResponse.getStatusLine().getStatusCode();
-		System.out.println("Status code:" + statuscode);
-		Assert.assertEquals(statuscode, RESPONSE_STATUS_CODE_200, "status code is not 200");
-
-		// //2.Json String
-		String responsestring = EntityUtils.toString(closeableHttpResponse.getEntity(), "UTF-8");
-		JSONObject responseJson = new JSONObject(responsestring);
-		System.out.println("JSON response from API---->" + responseJson);
-				
-	}
+//	@Test(priority = 30)
+//	public void reports_queryhistoryfiltered() throws ClientProtocolException, IOException {
+//		restclient = new RestClient();
+//		HashMap<String, String> headermap = new HashMap<String, String>();
+//		headermap.put("content-type", "application/json");
+//		headermap.put("Authorization", "Bearer " + token);
+//
+//		
+//		closeableHttpResponse = restclient.get(queryhistoryfiltered,headermap);
+//
+//		int statuscode = closeableHttpResponse.getStatusLine().getStatusCode();
+//		System.out.println("Status code:" + statuscode);
+//		Assert.assertEquals(statuscode, RESPONSE_STATUS_CODE_200, "status code is not 200");
+//
+//		// //2.Json String
+//		String responsestring = EntityUtils.toString(closeableHttpResponse.getEntity(), "UTF-8");
+//		JSONObject responseJson = new JSONObject(responsestring);
+//		System.out.println("JSON response from API---->" + responseJson);
+//				
+//	}
 	
-	@Test(priority = 31)
+	@Test(priority = 32)
 	public void reports_seaechesperformedbyuser() throws ClientProtocolException, IOException {
 		restclient = new RestClient();
 		HashMap<String, String> headermap = new HashMap<String, String>();
 		headermap.put("content-type", "application/json");
+		headermap.put("startDate", "01-01-2022");
 		headermap.put("Authorization", "Bearer " + token);
 
 		
@@ -1174,7 +1256,7 @@ public class DataExchangeAdmin extends TestBase implements IExecutionListener {
 		
 			}
 	
-	@Test(priority = 32)
+	@Test(priority = 33)
 	public void reports_multiauthorization() throws ClientProtocolException, IOException {
 		restclient = new RestClient();
 		HashMap<String, String> headermap = new HashMap<String, String>();
@@ -1201,7 +1283,7 @@ public class DataExchangeAdmin extends TestBase implements IExecutionListener {
 		System.out.println("Fee Response From Json is : " + reports_TableId);
 	}
 
-	@Test(priority = 33)
+	@Test(priority = 34)
 	public void reports_entitydetails() throws ClientProtocolException, IOException {
 		restclient = new RestClient();
 		HashMap<String, String> headermap = new HashMap<String, String>();
@@ -1222,7 +1304,7 @@ public class DataExchangeAdmin extends TestBase implements IExecutionListener {
 		
 		}
 	
-	@Test(priority = 34)
+	@Test(priority = 35)
 	public void reports_employeeworkinghours() throws ClientProtocolException, IOException {
 		restclient = new RestClient();
 		HashMap<String, String> headermap = new HashMap<String, String>();
@@ -1252,14 +1334,14 @@ public class DataExchangeAdmin extends TestBase implements IExecutionListener {
 	
 	
 //	search reason
-	@Test(priority = 35)
+	@Test(priority = 36)
 	public void searchreason() throws ClientProtocolException, IOException {
 		restclient = new RestClient();
 		HashMap<String, String> headermap = new HashMap<String, String>();
 		headermap.put("content-type", "application/json");
-		headermap.put("SearchReasonId", "33631227");
-		headermap.put("ClientId", "33631227");
-		headermap.put("WorkflowId", "33631227");
+		headermap.put("SearchReasonId", "10217");
+		headermap.put("ClientId", "86");
+		headermap.put("WorkflowId", "129");
 		headermap.put("Authorization", "Bearer " + token);
 
 		
@@ -1275,19 +1357,19 @@ public class DataExchangeAdmin extends TestBase implements IExecutionListener {
 		System.out.println("JSON response from API---->" + responseJson);
 		
 		// To get value from JSON Array
-		String reports_domain = TestUtil.getValueByjpath(responseJson, "/data[0]/Domain");
-		System.out.println("Fee Response From Json is : " + reports_domain);
+		String searchReasonid = TestUtil.getValueByjpath(responseJson, "/data[0]/SearchReasonId");
+		System.out.println("Serach reason Id Response From Json is : " + searchReasonid);
 
-		String reports_Code = TestUtil.getValueByjpath(responseJson, "/data[0]/Code");
-		System.out.println("Fee Response From Json is : " + reports_Code);
+		String clientname = TestUtil.getValueByjpath(responseJson, "/data[0]/clientname");
+		System.out.println("Search reason clientname Response From Json is : " + clientname);
 	}
 
-	@Test(priority = 36)
+	@Test(priority = 37)
 	public void searchreasondetail() throws ClientProtocolException, IOException {
 		restclient = new RestClient();
 		HashMap<String, String> headermap = new HashMap<String, String>();
 		headermap.put("content-type", "application/json");
-		headermap.put("SearchReasonId", "33631227");
+		headermap.put("SearchReasonId", "10217");
 		headermap.put("Authorization", "Bearer " + token);
 
 		
@@ -1303,48 +1385,21 @@ public class DataExchangeAdmin extends TestBase implements IExecutionListener {
 		System.out.println("JSON response from API---->" + responseJson);
 		
 		// To get value from JSON Array
-		String reports_domain = TestUtil.getValueByjpath(responseJson, "/data[0]/Domain");
-		System.out.println("Fee Response From Json is : " + reports_domain);
+		String searchreason_agencymethodcode = TestUtil.getValueByjpath(responseJson, "/data[0]/AgencyMethodCode");
+		System.out.println("SearchReasonDetail Agencymethod code Response From Json is : " + searchreason_agencymethodcode);
 
-		String reports_Code = TestUtil.getValueByjpath(responseJson, "/data[0]/Code");
-		System.out.println("Fee Response From Json is : " + reports_Code);
+		String searchReasonDetailid = TestUtil.getValueByjpath(responseJson, "/data[0]/SearchReasonDetailId");
+		System.out.println("SearchReasonDetail ID Response From Json is : " + searchReasonDetailid);
 	}
 
-	@Test(priority = 37)
-	public void linkuser() throws ClientProtocolException, IOException {
-		restclient = new RestClient();
-		HashMap<String, String> headermap = new HashMap<String, String>();
-		headermap.put("content-type", "application/json");
-		headermap.put("SearchReasonId", "33631227");
-		headermap.put("Authorization", "Bearer " + token);
-
-		
-		closeableHttpResponse = restclient.post_nobody(linkusers,headermap);
-
-		int statuscode = closeableHttpResponse.getStatusLine().getStatusCode();
-		System.out.println("Status code:" + statuscode);
-		Assert.assertEquals(statuscode, RESPONSE_STATUS_CODE_200, "status code is not 200");
-
-		// //2.Json String
-		String responsestring = EntityUtils.toString(closeableHttpResponse.getEntity(), "UTF-8");
-		JSONObject responseJson = new JSONObject(responsestring);
-		System.out.println("JSON response from API---->" + responseJson);
-		
-		// To get value from JSON Array
-		String reports_domain = TestUtil.getValueByjpath(responseJson, "/data[0]/Domain");
-		System.out.println("Fee Response From Json is : " + reports_domain);
-
-		String reports_Code = TestUtil.getValueByjpath(responseJson, "/data[0]/Code");
-		System.out.println("Fee Response From Json is : " + reports_Code);
-	}
-
-	@Test(priority = 38)
+	
+	@Test(priority = 39)
 	public void searchreasonsusers() throws ClientProtocolException, IOException {
 		restclient = new RestClient();
 		HashMap<String, String> headermap = new HashMap<String, String>();
 		headermap.put("content-type", "application/json");
-		headermap.put("SearchReasonId", "33631227");
-		headermap.put("AgencyCode", "dolor aute");
+		headermap.put("SearchReasonId", "10217");
+		headermap.put("AgencyCode", "192");
 		headermap.put("Authorization", "Bearer " + token);
 
 		
@@ -1359,18 +1414,18 @@ public class DataExchangeAdmin extends TestBase implements IExecutionListener {
 		JSONObject responseJson = new JSONObject(responsestring);
 		System.out.println("JSON response from API---->" + responseJson);
 		
-		// To get value from JSON Array
-		String reports_domain = TestUtil.getValueByjpath(responseJson, "/data[0]/Domain");
-		System.out.println("Fee Response From Json is : " + reports_domain);
-
-		String reports_Code = TestUtil.getValueByjpath(responseJson, "/data[0]/Code");
-		System.out.println("Fee Response From Json is : " + reports_Code);
+//		// To get value from JSON Array
+//		String reports_domain = TestUtil.getValueByjpath(responseJson, "/data[0]/Domain");
+//		System.out.println("Fee Response From Json is : " + reports_domain);
+//
+//		String reports_Code = TestUtil.getValueByjpath(responseJson, "/data[0]/Code");
+//		System.out.println("Fee Response From Json is : " + reports_Code);
 	}
 	
 //	usage metrics
 	
 
-	@Test(priority = 39)
+	@Test(priority = 40)
 	public void individualsearch() throws ClientProtocolException, IOException {
 		restclient = new RestClient();
 		HashMap<String, String> headermap = new HashMap<String, String>();
@@ -1391,7 +1446,7 @@ public class DataExchangeAdmin extends TestBase implements IExecutionListener {
 		
 	}
 	
-	@Test(priority = 40)
+	@Test(priority = 41)
 	public void entitysearch() throws ClientProtocolException, IOException {
 		restclient = new RestClient();
 		HashMap<String, String> headermap = new HashMap<String, String>();
@@ -1412,7 +1467,7 @@ public class DataExchangeAdmin extends TestBase implements IExecutionListener {
 		
 	}
 	
-	@Test(priority = 41)
+	@Test(priority = 42)
 	public void monthlyentity() throws ClientProtocolException, IOException {
 		restclient = new RestClient();
 		HashMap<String, String> headermap = new HashMap<String, String>();
@@ -1433,7 +1488,7 @@ public class DataExchangeAdmin extends TestBase implements IExecutionListener {
 		
 	}
 	
-	@Test(priority = 42)
+	@Test(priority = 43)
 	public void monthlyindividual() throws ClientProtocolException, IOException {
 		restclient = new RestClient();
 		HashMap<String, String> headermap = new HashMap<String, String>();
@@ -1455,7 +1510,7 @@ public class DataExchangeAdmin extends TestBase implements IExecutionListener {
 
 	}
 	
-	@Test(priority = 43)
+	@Test(priority = 44)
 	public void downloadreport() throws ClientProtocolException, IOException {
 		restclient = new RestClient();
 		HashMap<String, String> headermap = new HashMap<String, String>();
@@ -1479,8 +1534,30 @@ public class DataExchangeAdmin extends TestBase implements IExecutionListener {
 	
 //	workflow
 
-	@Test(priority = 44)
-	public void workflows() throws ClientProtocolException, IOException {
+	@Test(priority = 45)
+	public void workflow_by_id() throws ClientProtocolException, IOException {
+		restclient = new RestClient();
+		HashMap<String, String> headermap = new HashMap<String, String>();
+		headermap.put("content-type", "application/json");
+		headermap.put("Authorization", "Bearer " + token);
+
+		
+		closeableHttpResponse = restclient.get(workflows,headermap);
+
+		int statuscode = closeableHttpResponse.getStatusLine().getStatusCode();
+		System.out.println("Status code:" + statuscode);
+		Assert.assertEquals(statuscode, RESPONSE_STATUS_CODE_200, "status code is not 200");
+
+		// //2.Json String
+		String responsestring = EntityUtils.toString(closeableHttpResponse.getEntity(), "UTF-8");
+		JSONObject responseJson = new JSONObject(responsestring);
+		System.out.println("JSON response from API---->" + responseJson);
+		
+
+	}
+	
+	@Test(priority = 45)
+	public void total_workflow() throws ClientProtocolException, IOException {
 		restclient = new RestClient();
 		HashMap<String, String> headermap = new HashMap<String, String>();
 		headermap.put("content-type", "application/json");
@@ -1501,58 +1578,14 @@ public class DataExchangeAdmin extends TestBase implements IExecutionListener {
 
 	}
 
-	@Test(priority = 45)
-	public void workflow_method() throws ClientProtocolException, IOException {
-		restclient = new RestClient();
-		HashMap<String, String> headermap = new HashMap<String, String>();
-		headermap.put("content-type", "application/json");
-		headermap.put("workflowId", "33631227");
-		headermap.put("agencyMethodCode", "dolor aute");
-		headermap.put("Authorization", "Bearer " + token);
-
-		
-		closeableHttpResponse = restclient.get(methodfields,headermap);
-
-		int statuscode = closeableHttpResponse.getStatusLine().getStatusCode();
-		System.out.println("Status code:" + statuscode);
-		Assert.assertEquals(statuscode, RESPONSE_STATUS_CODE_200, "status code is not 200");
-
-		// //2.Json String
-		String responsestring = EntityUtils.toString(closeableHttpResponse.getEntity(), "UTF-8");
-		JSONObject responseJson = new JSONObject(responsestring);
-		System.out.println("JSON response from API---->" + responseJson);
-		
-
-	}
-
-	@Test(priority = 46)
-	public void save_workflowmthod() throws ClientProtocolException, IOException {
-		restclient = new RestClient();
-		HashMap<String, String> headermap = new HashMap<String, String>();
-		headermap.put("content-type", "application/json");
-		headermap.put("Authorization", "Bearer " + token);
-
-		
-		closeableHttpResponse = restclient.get(savemethodfields,headermap);
-
-		int statuscode = closeableHttpResponse.getStatusLine().getStatusCode();
-		System.out.println("Status code:" + statuscode);
-		Assert.assertEquals(statuscode, RESPONSE_STATUS_CODE_200, "status code is not 200");
-
-		// //2.Json String
-		String responsestring = EntityUtils.toString(closeableHttpResponse.getEntity(), "UTF-8");
-		JSONObject responseJson = new JSONObject(responsestring);
-		System.out.println("JSON response from API---->" + responseJson);
-		
-
-	}
-
-	@Test(priority = 47)
+	
+	
+	@Test(priority = 48)
 	public void workflow_client() throws ClientProtocolException, IOException {
 		restclient = new RestClient();
 		HashMap<String, String> headermap = new HashMap<String, String>();
 		headermap.put("content-type", "application/json");
-		headermap.put("ClientId", "33631227");
+		headermap.put("ClientId", "86");
 		headermap.put("Authorization", "Bearer " + token);
 
 		
@@ -1567,9 +1600,5 @@ public class DataExchangeAdmin extends TestBase implements IExecutionListener {
 		JSONObject responseJson = new JSONObject(responsestring);
 		System.out.println("JSON response from API---->" + responseJson);
 		
-
-	}
-
-
-	
+     }
 }

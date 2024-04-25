@@ -9,15 +9,29 @@
       <class name="com.qa.tests.DataExchangeAdmin">
         <methods>
           <include name="batch_downloadfile"/>
+          <include name="individualsearch"/>
+          <include name="reports_employeeworkinghours"/>
+          <include name="monthlyentity"/>
+          <include name="total_workflow"/>
+          <include name="client"/>
+          <include name="reports_multiauthorization"/>
+          <include name="mapping"/>
+          <include name="workflow_client"/>
+          <include name="searchreasonsusers"/>
+          <include name="reports_newaccounts"/>
+          <include name="entitysearch"/>
+          <include name="reports_seaechesperformedbyuser"/>
+          <include name="downloadreport"/>
+          <include name="reports_queryhistory"/>
           <include name="searchreason"/>
           <include name="setup"/>
-          <include name="linkuser"/>
+          <include name="monthlyindividual"/>
           <include name="batch_fileupload"/>
-          <include name="reports_activelogins"/>
+          <include name="reports_entitydetails"/>
           <include name="searchreasondetail"/>
-          <include name="save_workflowmthod"/>
-          <include name="searchreasonsusers"/>
-          <include name="savebatchdetail"/>
+          <include name="reports_loginhistory"/>
+          <include name="workflow_by_id"/>
+          <include name="reports_failedlogins"/>
         </methods>
       </class> <!-- com.qa.tests.DataExchangeAdmin -->
     </classes>
