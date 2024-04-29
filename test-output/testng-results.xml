@@ -1,97 +1,97 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="43" passed="20" failed="23" skipped="0">
+<testng-results ignored="0" total="43" passed="36" failed="7" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-04-23T21:40:40 IST" name="IDEAL" finished-at="2024-04-25T14:43:53 IST" duration-ms="147793080">
+  <suite started-at="2024-04-25T15:07:44 IST" name="IDEAL" finished-at="2024-04-25T15:11:22 IST" duration-ms="218206">
     <groups>
     </groups>
-    <test started-at="2024-04-23T21:40:40 IST" name="DataExchangeAdmin" finished-at="2024-04-25T14:43:53 IST" duration-ms="147793080">
+    <test started-at="2024-04-25T15:07:44 IST" name="DataExchangeAdmin" finished-at="2024-04-25T15:11:22 IST" duration-ms="218206">
       <class name="com.qa.tests.DataExchangeAdmin">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.tests.DataExchangeAdmin@71652c98]" started-at="2024-04-23T21:40:40 IST" name="setup" finished-at="2024-04-23T21:40:40 IST" duration-ms="14" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.tests.DataExchangeAdmin@49c7b90e]" started-at="2024-04-25T15:07:44 IST" name="setup" finished-at="2024-04-25T15:07:44 IST" duration-ms="8" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="Credentilas()[pri:1, instance:com.qa.tests.DataExchangeAdmin@71652c98]" started-at="2024-04-23T21:40:40 IST" name="Credentilas" finished-at="2024-04-23T21:40:51 IST" duration-ms="10410" status="PASS">
+        <test-method signature="Credentilas()[pri:1, instance:com.qa.tests.DataExchangeAdmin@49c7b90e]" started-at="2024-04-25T15:07:44 IST" name="Credentilas" finished-at="2024-04-25T15:07:55 IST" duration-ms="10453" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Credentilas -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.tests.DataExchangeAdmin@71652c98]" started-at="2024-04-23T21:40:51 IST" name="setup" finished-at="2024-04-23T21:40:51 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.tests.DataExchangeAdmin@49c7b90e]" started-at="2024-04-25T15:07:55 IST" name="setup" finished-at="2024-04-25T15:07:55 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="Admin_APIConnectivity()[pri:2, instance:com.qa.tests.DataExchangeAdmin@71652c98]" started-at="2024-04-23T21:40:51 IST" name="Admin_APIConnectivity" finished-at="2024-04-23T21:40:54 IST" duration-ms="3222" status="PASS">
+        <test-method signature="Admin_APIConnectivity()[pri:2, instance:com.qa.tests.DataExchangeAdmin@49c7b90e]" started-at="2024-04-25T15:07:55 IST" name="Admin_APIConnectivity" finished-at="2024-04-25T15:07:58 IST" duration-ms="3153" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Admin_APIConnectivity -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.tests.DataExchangeAdmin@71652c98]" started-at="2024-04-23T21:40:54 IST" name="setup" finished-at="2024-04-23T21:40:54 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.tests.DataExchangeAdmin@49c7b90e]" started-at="2024-04-25T15:07:58 IST" name="setup" finished-at="2024-04-25T15:07:58 IST" duration-ms="4" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="AdminDashboard()[pri:3, instance:com.qa.tests.DataExchangeAdmin@71652c98]" started-at="2024-04-23T21:40:54 IST" name="AdminDashboard" finished-at="2024-04-23T21:40:58 IST" duration-ms="4035" status="PASS">
+        <test-method signature="AdminDashboard()[pri:3, instance:com.qa.tests.DataExchangeAdmin@49c7b90e]" started-at="2024-04-25T15:07:58 IST" name="AdminDashboard" finished-at="2024-04-25T15:08:02 IST" duration-ms="3825" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AdminDashboard -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.tests.DataExchangeAdmin@71652c98]" started-at="2024-04-23T21:40:58 IST" name="setup" finished-at="2024-04-23T21:40:58 IST" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.tests.DataExchangeAdmin@49c7b90e]" started-at="2024-04-25T15:08:02 IST" name="setup" finished-at="2024-04-25T15:08:02 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="Admin_SearchUsersByName()[pri:4, instance:com.qa.tests.DataExchangeAdmin@71652c98]" started-at="2024-04-23T21:40:58 IST" name="Admin_SearchUsersByName" finished-at="2024-04-23T21:41:04 IST" duration-ms="5687" status="PASS">
+        <test-method signature="Admin_SearchUsersByName()[pri:4, instance:com.qa.tests.DataExchangeAdmin@49c7b90e]" started-at="2024-04-25T15:08:02 IST" name="Admin_SearchUsersByName" finished-at="2024-04-25T15:08:07 IST" duration-ms="5725" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Admin_SearchUsersByName -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.tests.DataExchangeAdmin@71652c98]" started-at="2024-04-23T21:41:04 IST" name="setup" finished-at="2024-04-23T21:41:04 IST" duration-ms="3" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.tests.DataExchangeAdmin@49c7b90e]" started-at="2024-04-25T15:08:07 IST" name="setup" finished-at="2024-04-25T15:08:07 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="Admin_IsUserPresent()[pri:5, instance:com.qa.tests.DataExchangeAdmin@71652c98]" started-at="2024-04-23T21:41:04 IST" name="Admin_IsUserPresent" finished-at="2024-04-23T21:41:05 IST" duration-ms="1849" status="PASS">
+        <test-method signature="Admin_IsUserPresent()[pri:5, instance:com.qa.tests.DataExchangeAdmin@49c7b90e]" started-at="2024-04-25T15:08:07 IST" name="Admin_IsUserPresent" finished-at="2024-04-25T15:08:08 IST" duration-ms="1203" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Admin_IsUserPresent -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.tests.DataExchangeAdmin@71652c98]" started-at="2024-04-23T21:41:05 IST" name="setup" finished-at="2024-04-23T21:41:05 IST" duration-ms="3" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.tests.DataExchangeAdmin@49c7b90e]" started-at="2024-04-25T15:08:08 IST" name="setup" finished-at="2024-04-25T15:08:08 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="CustomAttributes()[pri:6, instance:com.qa.tests.DataExchangeAdmin@71652c98]" started-at="2024-04-23T21:41:05 IST" name="CustomAttributes" finished-at="2024-04-23T21:41:25 IST" duration-ms="20011" status="PASS">
+        <test-method signature="CustomAttributes()[pri:6, instance:com.qa.tests.DataExchangeAdmin@49c7b90e]" started-at="2024-04-25T15:08:08 IST" name="CustomAttributes" finished-at="2024-04-25T15:08:23 IST" duration-ms="14843" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CustomAttributes -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.tests.DataExchangeAdmin@71652c98]" started-at="2024-04-23T21:41:25 IST" name="setup" finished-at="2024-04-23T21:41:25 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.tests.DataExchangeAdmin@49c7b90e]" started-at="2024-04-25T15:08:23 IST" name="setup" finished-at="2024-04-25T15:08:23 IST" duration-ms="7" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="UpdateSystemUser()[pri:8, instance:com.qa.tests.DataExchangeAdmin@71652c98]" started-at="2024-04-23T21:41:25 IST" name="UpdateSystemUser" finished-at="2024-04-23T21:41:26 IST" duration-ms="1026" status="PASS">
+        <test-method signature="UpdateSystemUser()[pri:8, instance:com.qa.tests.DataExchangeAdmin@49c7b90e]" started-at="2024-04-25T15:08:23 IST" name="UpdateSystemUser" finished-at="2024-04-25T15:08:25 IST" duration-ms="1336" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- UpdateSystemUser -->
-        <test-method signature="EnableDisableSystemUser()[pri:9, instance:com.qa.tests.DataExchangeAdmin@71652c98]" started-at="2024-04-23T21:41:26 IST" name="EnableDisableSystemUser" finished-at="2024-04-23T21:41:28 IST" duration-ms="1715" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.tests.DataExchangeAdmin@49c7b90e]" started-at="2024-04-25T15:08:25 IST" name="setup" finished-at="2024-04-25T15:08:25 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="EnableDisableSystemUser()[pri:9, instance:com.qa.tests.DataExchangeAdmin@49c7b90e]" started-at="2024-04-25T15:08:25 IST" name="EnableDisableSystemUser" finished-at="2024-04-25T15:08:26 IST" duration-ms="1032" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- EnableDisableSystemUser -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.tests.DataExchangeAdmin@71652c98]" started-at="2024-04-23T21:41:26 IST" name="setup" finished-at="2024-04-23T21:41:26 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.tests.DataExchangeAdmin@49c7b90e]" started-at="2024-04-25T15:08:26 IST" name="setup" finished-at="2024-04-25T15:08:26 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.tests.DataExchangeAdmin@71652c98]" started-at="2024-04-23T21:41:28 IST" name="setup" finished-at="2024-04-23T21:41:28 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="AgencyDistribution()[pri:10, instance:com.qa.tests.DataExchangeAdmin@71652c98]" started-at="2024-04-23T21:41:28 IST" name="AgencyDistribution" finished-at="2024-04-23T21:41:32 IST" duration-ms="3580" status="PASS">
+        <test-method signature="AgencyDistribution()[pri:10, instance:com.qa.tests.DataExchangeAdmin@49c7b90e]" started-at="2024-04-25T15:08:26 IST" name="AgencyDistribution" finished-at="2024-04-25T15:08:27 IST" duration-ms="1533" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AgencyDistribution -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.tests.DataExchangeAdmin@71652c98]" started-at="2024-04-23T21:41:32 IST" name="setup" finished-at="2024-04-23T21:41:32 IST" duration-ms="6" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.tests.DataExchangeAdmin@49c7b90e]" started-at="2024-04-25T15:08:27 IST" name="setup" finished-at="2024-04-25T15:08:27 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="AgencyAll()[pri:11, instance:com.qa.tests.DataExchangeAdmin@71652c98]" started-at="2024-04-23T21:41:32 IST" name="AgencyAll" finished-at="2024-04-23T21:41:33 IST" duration-ms="1308" status="PASS">
+        <test-method signature="AgencyAll()[pri:11, instance:com.qa.tests.DataExchangeAdmin@49c7b90e]" started-at="2024-04-25T15:08:27 IST" name="AgencyAll" finished-at="2024-04-25T15:08:28 IST" duration-ms="902" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AgencyAll -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.tests.DataExchangeAdmin@71652c98]" started-at="2024-04-23T21:41:33 IST" name="setup" finished-at="2024-04-23T21:41:33 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.tests.DataExchangeAdmin@49c7b90e]" started-at="2024-04-25T15:08:28 IST" name="setup" finished-at="2024-04-25T15:08:28 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="batch_fileupload()[pri:12, instance:com.qa.tests.DataExchangeAdmin@71652c98]" started-at="2024-04-23T21:41:33 IST" name="batch_fileupload" finished-at="2024-04-23T21:41:34 IST" duration-ms="1189" status="FAIL">
+        <test-method signature="batch_fileupload()[pri:12, instance:com.qa.tests.DataExchangeAdmin@49c7b90e]" started-at="2024-04-25T15:08:28 IST" name="batch_fileupload" finished-at="2024-04-25T15:08:29 IST" duration-ms="953" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[status code is not 200 expected [200] but found [400]]]>
@@ -137,19 +137,19 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- batch_fileupload -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.tests.DataExchangeAdmin@71652c98]" started-at="2024-04-23T21:41:34 IST" name="setup" finished-at="2024-04-23T21:41:34 IST" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.tests.DataExchangeAdmin@49c7b90e]" started-at="2024-04-25T15:08:29 IST" name="setup" finished-at="2024-04-25T15:08:29 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="historicalbatches()[pri:14, instance:com.qa.tests.DataExchangeAdmin@71652c98]" started-at="2024-04-23T21:41:34 IST" name="historicalbatches" finished-at="2024-04-23T21:41:35 IST" duration-ms="1119" status="PASS">
+        <test-method signature="historicalbatches()[pri:14, instance:com.qa.tests.DataExchangeAdmin@49c7b90e]" started-at="2024-04-25T15:08:29 IST" name="historicalbatches" finished-at="2024-04-25T15:08:30 IST" duration-ms="876" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- historicalbatches -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.tests.DataExchangeAdmin@71652c98]" started-at="2024-04-23T21:41:35 IST" name="setup" finished-at="2024-04-23T21:41:35 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.tests.DataExchangeAdmin@49c7b90e]" started-at="2024-04-25T15:08:30 IST" name="setup" finished-at="2024-04-25T15:08:30 IST" duration-ms="4" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="batch_downloadfile()[pri:15, instance:com.qa.tests.DataExchangeAdmin@71652c98]" started-at="2024-04-23T21:41:35 IST" name="batch_downloadfile" finished-at="2024-04-23T21:41:37 IST" duration-ms="1104" status="FAIL">
+        <test-method signature="batch_downloadfile()[pri:15, instance:com.qa.tests.DataExchangeAdmin@49c7b90e]" started-at="2024-04-25T15:08:30 IST" name="batch_downloadfile" finished-at="2024-04-25T15:08:31 IST" duration-ms="860" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[status code is not 200 expected [200] but found [405]]]>
@@ -195,27 +195,27 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- batch_downloadfile -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.tests.DataExchangeAdmin@71652c98]" started-at="2024-04-23T21:41:37 IST" name="setup" finished-at="2024-04-23T21:41:37 IST" duration-ms="5" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.tests.DataExchangeAdmin@49c7b90e]" started-at="2024-04-25T15:08:31 IST" name="setup" finished-at="2024-04-25T15:08:31 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="batchdetail()[pri:16, instance:com.qa.tests.DataExchangeAdmin@71652c98]" started-at="2024-04-23T21:41:37 IST" name="batchdetail" finished-at="2024-04-23T21:41:38 IST" duration-ms="1187" status="PASS">
+        <test-method signature="batchdetail()[pri:16, instance:com.qa.tests.DataExchangeAdmin@49c7b90e]" started-at="2024-04-25T15:08:31 IST" name="batchdetail" finished-at="2024-04-25T15:08:32 IST" duration-ms="898" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- batchdetail -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.tests.DataExchangeAdmin@71652c98]" started-at="2024-04-23T21:41:38 IST" name="setup" finished-at="2024-04-23T21:41:38 IST" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.tests.DataExchangeAdmin@49c7b90e]" started-at="2024-04-25T15:08:32 IST" name="setup" finished-at="2024-04-25T15:08:32 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="downloadbatchdetail()[pri:17, instance:com.qa.tests.DataExchangeAdmin@71652c98]" started-at="2024-04-23T21:41:38 IST" name="downloadbatchdetail" finished-at="2024-04-23T21:41:39 IST" duration-ms="1124" status="PASS">
+        <test-method signature="downloadbatchdetail()[pri:17, instance:com.qa.tests.DataExchangeAdmin@49c7b90e]" started-at="2024-04-25T15:08:32 IST" name="downloadbatchdetail" finished-at="2024-04-25T15:08:33 IST" duration-ms="1368" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- downloadbatchdetail -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.tests.DataExchangeAdmin@71652c98]" started-at="2024-04-23T21:41:39 IST" name="setup" finished-at="2024-04-23T21:41:39 IST" duration-ms="4" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.tests.DataExchangeAdmin@49c7b90e]" started-at="2024-04-25T15:08:33 IST" name="setup" finished-at="2024-04-25T15:08:33 IST" duration-ms="7" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="client()[pri:18, instance:com.qa.tests.DataExchangeAdmin@71652c98]" started-at="2024-04-23T21:41:39 IST" name="client" finished-at="2024-04-23T21:41:40 IST" duration-ms="1235" status="FAIL">
+        <test-method signature="client()[pri:18, instance:com.qa.tests.DataExchangeAdmin@49c7b90e]" started-at="2024-04-25T15:08:33 IST" name="client" finished-at="2024-04-25T15:08:34 IST" duration-ms="872" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[status code is not 200 expected [200] but found [400]]]>
@@ -261,11 +261,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- client -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.tests.DataExchangeAdmin@71652c98]" started-at="2024-04-23T21:41:40 IST" name="setup" finished-at="2024-04-23T21:41:40 IST" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.tests.DataExchangeAdmin@49c7b90e]" started-at="2024-04-25T15:08:34 IST" name="setup" finished-at="2024-04-25T15:08:34 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="mapping()[pri:18, instance:com.qa.tests.DataExchangeAdmin@71652c98]" started-at="2024-04-23T21:41:40 IST" name="mapping" finished-at="2024-04-23T21:41:41 IST" duration-ms="1325" status="FAIL">
+        <test-method signature="mapping()[pri:18, instance:com.qa.tests.DataExchangeAdmin@49c7b90e]" started-at="2024-04-25T15:08:34 IST" name="mapping" finished-at="2024-04-25T15:08:35 IST" duration-ms="870" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[status code is not 200 expected [200] but found [400]]]>
@@ -311,59 +311,67 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- mapping -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.tests.DataExchangeAdmin@71652c98]" started-at="2024-04-23T21:41:42 IST" name="setup" finished-at="2024-04-23T21:41:42 IST" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.tests.DataExchangeAdmin@49c7b90e]" started-at="2024-04-25T15:08:35 IST" name="setup" finished-at="2024-04-25T15:08:35 IST" duration-ms="3" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="alertmessage()[pri:20, instance:com.qa.tests.DataExchangeAdmin@71652c98]" started-at="2024-04-23T21:41:42 IST" name="alertmessage" finished-at="2024-04-23T21:41:42 IST" duration-ms="989" status="PASS">
+        <test-method signature="alertmessage()[pri:20, instance:com.qa.tests.DataExchangeAdmin@49c7b90e]" started-at="2024-04-25T15:08:35 IST" name="alertmessage" finished-at="2024-04-25T15:08:36 IST" duration-ms="857" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- alertmessage -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.tests.DataExchangeAdmin@71652c98]" started-at="2024-04-23T21:41:43 IST" name="setup" finished-at="2024-04-23T21:41:43 IST" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.tests.DataExchangeAdmin@49c7b90e]" started-at="2024-04-25T15:08:36 IST" name="setup" finished-at="2024-04-25T15:08:36 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="reference_agency()[pri:21, instance:com.qa.tests.DataExchangeAdmin@71652c98]" started-at="2024-04-23T21:41:43 IST" name="reference_agency" finished-at="2024-04-23T21:41:44 IST" duration-ms="1139" status="PASS">
+        <test-method signature="reference_agency()[pri:21, instance:com.qa.tests.DataExchangeAdmin@49c7b90e]" started-at="2024-04-25T15:08:36 IST" name="reference_agency" finished-at="2024-04-25T15:08:37 IST" duration-ms="885" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- reference_agency -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.tests.DataExchangeAdmin@71652c98]" started-at="2024-04-23T21:41:44 IST" name="setup" finished-at="2024-04-23T21:41:44 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.tests.DataExchangeAdmin@49c7b90e]" started-at="2024-04-25T15:08:37 IST" name="setup" finished-at="2024-04-25T15:08:37 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="reference_role()[pri:22, instance:com.qa.tests.DataExchangeAdmin@71652c98]" started-at="2024-04-23T21:41:44 IST" name="reference_role" finished-at="2024-04-23T21:41:45 IST" duration-ms="1195" status="PASS">
+        <test-method signature="reference_role()[pri:22, instance:com.qa.tests.DataExchangeAdmin@49c7b90e]" started-at="2024-04-25T15:08:37 IST" name="reference_role" finished-at="2024-04-25T15:08:38 IST" duration-ms="881" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- reference_role -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.tests.DataExchangeAdmin@71652c98]" started-at="2024-04-23T21:41:45 IST" name="setup" finished-at="2024-04-23T21:41:45 IST" duration-ms="3" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.tests.DataExchangeAdmin@49c7b90e]" started-at="2024-04-25T15:08:38 IST" name="setup" finished-at="2024-04-25T15:08:38 IST" duration-ms="3" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="reference_userdisablereason()[pri:23, instance:com.qa.tests.DataExchangeAdmin@71652c98]" started-at="2024-04-23T21:41:45 IST" name="reference_userdisablereason" finished-at="2024-04-23T21:41:46 IST" duration-ms="1207" status="PASS">
+        <test-method signature="reference_userdisablereason()[pri:23, instance:com.qa.tests.DataExchangeAdmin@49c7b90e]" started-at="2024-04-25T15:08:38 IST" name="reference_userdisablereason" finished-at="2024-04-25T15:08:38 IST" duration-ms="886" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- reference_userdisablereason -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.tests.DataExchangeAdmin@71652c98]" started-at="2024-04-23T21:41:46 IST" name="setup" finished-at="2024-04-23T21:41:46 IST" duration-ms="9" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.tests.DataExchangeAdmin@49c7b90e]" started-at="2024-04-25T15:08:38 IST" name="setup" finished-at="2024-04-25T15:08:38 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="reeference_template()[pri:24, instance:com.qa.tests.DataExchangeAdmin@71652c98]" started-at="2024-04-23T21:41:46 IST" name="reeference_template" finished-at="2024-04-23T21:41:47 IST" duration-ms="1003" status="PASS">
+        <test-method signature="reeference_template()[pri:24, instance:com.qa.tests.DataExchangeAdmin@49c7b90e]" started-at="2024-04-25T15:08:38 IST" name="reeference_template" finished-at="2024-04-25T15:08:40 IST" duration-ms="1476" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- reeference_template -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.tests.DataExchangeAdmin@71652c98]" started-at="2024-04-23T21:41:47 IST" name="setup" finished-at="2024-04-23T21:41:47 IST" duration-ms="3" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.tests.DataExchangeAdmin@49c7b90e]" started-at="2024-04-25T15:08:40 IST" name="setup" finished-at="2024-04-25T15:08:40 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="reports_landing()[pri:25, instance:com.qa.tests.DataExchangeAdmin@71652c98]" started-at="2024-04-23T21:41:47 IST" name="reports_landing" finished-at="2024-04-23T21:41:48 IST" duration-ms="1090" status="PASS">
+        <test-method signature="reports_landing()[pri:25, instance:com.qa.tests.DataExchangeAdmin@49c7b90e]" started-at="2024-04-25T15:08:40 IST" name="reports_landing" finished-at="2024-04-25T15:08:41 IST" duration-ms="849" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- reports_landing -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.tests.DataExchangeAdmin@71652c98]" started-at="2024-04-23T21:41:48 IST" name="setup" finished-at="2024-04-23T21:41:48 IST" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.tests.DataExchangeAdmin@49c7b90e]" started-at="2024-04-25T15:08:41 IST" name="setup" finished-at="2024-04-25T15:08:41 IST" duration-ms="3" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="reports_failedlogins()[pri:26, instance:com.qa.tests.DataExchangeAdmin@71652c98]" started-at="2024-04-23T21:41:48 IST" name="reports_failedlogins" finished-at="2024-04-23T21:43:31 IST" duration-ms="102766" status="FAIL">
+        <test-method signature="reports_failedlogins()[pri:26, instance:com.qa.tests.DataExchangeAdmin@49c7b90e]" started-at="2024-04-25T15:08:41 IST" name="reports_failedlogins" finished-at="2024-04-25T15:09:24 IST" duration-ms="43596" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reports_failedlogins -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.tests.DataExchangeAdmin@49c7b90e]" started-at="2024-04-25T15:09:24 IST" name="setup" finished-at="2024-04-25T15:09:24 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="reports_activelogins()[pri:27, instance:com.qa.tests.DataExchangeAdmin@49c7b90e]" started-at="2024-04-25T15:09:24 IST" name="reports_activelogins" finished-at="2024-04-25T15:09:47 IST" duration-ms="23006" status="FAIL">
           <exception class="org.json.JSONException">
             <message>
               <![CDATA[JSONArray[0] not found.]]>
@@ -372,7 +380,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
               <![CDATA[org.json.JSONException: JSONArray[0] not found.
 at org.json.JSONArray.get(JSONArray.java:264)
 at com.qa.util.TestUtil.getValueByjpath(TestUtil.java:16)
-at com.qa.tests.DataExchangeAdmin.reports_failedlogins(DataExchangeAdmin.java:1107)
+at com.qa.tests.DataExchangeAdmin.reports_activelogins(DataExchangeAdmin.java:1136)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -406,480 +414,77 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           </exception> <!-- org.json.JSONException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- reports_failedlogins -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.tests.DataExchangeAdmin@71652c98]" started-at="2024-04-23T21:43:31 IST" name="setup" finished-at="2024-04-23T21:43:31 IST" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="reports_activelogins()[pri:27, instance:com.qa.tests.DataExchangeAdmin@71652c98]" started-at="2024-04-23T21:43:31 IST" name="reports_activelogins" finished-at="2024-04-23T21:44:43 IST" duration-ms="71719" status="PASS">
-          <reporter-output>
-          </reporter-output>
         </test-method> <!-- reports_activelogins -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.tests.DataExchangeAdmin@71652c98]" started-at="2024-04-23T21:44:43 IST" name="setup" finished-at="2024-04-23T21:44:43 IST" duration-ms="3" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.tests.DataExchangeAdmin@49c7b90e]" started-at="2024-04-25T15:09:47 IST" name="setup" finished-at="2024-04-25T15:09:47 IST" duration-ms="3" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="reports_loginhistory()[pri:28, instance:com.qa.tests.DataExchangeAdmin@71652c98]" started-at="2024-04-23T21:44:43 IST" name="reports_loginhistory" finished-at="2024-04-25T14:43:52 IST" duration-ms="147549293" status="FAIL">
-          <exception class="java.net.UnknownHostException">
-            <message>
-              <![CDATA[No such host is known (dev-dx-app-win-dataexchange-admin-us2.azurewebsites.net)]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.net.UnknownHostException: No such host is known (dev-dx-app-win-dataexchange-admin-us2.azurewebsites.net)
-at java.base/java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method)
-at java.base/java.net.InetAddress$PlatformNameService.lookupAllHostAddr(InetAddress.java:934)
-at java.base/java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1543)
-at java.base/java.net.InetAddress$NameServiceAddresses.get(InetAddress.java:852)
-at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1533)
-at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1385)
-at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1306)
-at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
-at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:112)
-at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:376)
-at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393)
-at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
-at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)
-at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
-at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
-at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
-at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
-at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:108)
-at com.qa.client.RestClient.get(RestClient.java:46)
-at com.qa.tests.DataExchangeAdmin.reports_loginhistory(DataExchangeAdmin.java:1152)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:766)
-at org.testng.TestRunner.run(TestRunner.java:587)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
-at org.testng.SuiteRunner.run(SuiteRunner.java:286)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
-at org.testng.TestNG.runSuites(TestNG.java:1039)
-at org.testng.TestNG.run(TestNG.java:1007)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.net.UnknownHostException -->
+        <test-method signature="reports_loginhistory()[pri:28, instance:com.qa.tests.DataExchangeAdmin@49c7b90e]" started-at="2024-04-25T15:09:47 IST" name="reports_loginhistory" finished-at="2024-04-25T15:10:07 IST" duration-ms="19500" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- reports_loginhistory -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.tests.DataExchangeAdmin@71652c98]" started-at="2024-04-25T14:43:52 IST" name="setup" finished-at="2024-04-25T14:43:52 IST" duration-ms="60" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.tests.DataExchangeAdmin@49c7b90e]" started-at="2024-04-25T15:10:07 IST" name="setup" finished-at="2024-04-25T15:10:07 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="reports_newaccounts()[pri:29, instance:com.qa.tests.DataExchangeAdmin@71652c98]" started-at="2024-04-25T14:43:52 IST" name="reports_newaccounts" finished-at="2024-04-25T14:43:52 IST" duration-ms="23" status="FAIL">
-          <exception class="java.net.UnknownHostException">
-            <message>
-              <![CDATA[dev-dx-app-win-dataexchange-admin-us2.azurewebsites.net]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.net.UnknownHostException: dev-dx-app-win-dataexchange-admin-us2.azurewebsites.net
-at java.base/java.net.InetAddress$CachedAddresses.get(InetAddress.java:801)
-at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1533)
-at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1385)
-at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1306)
-at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
-at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:112)
-at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:376)
-at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393)
-at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
-at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)
-at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
-at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
-at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
-at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
-at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:108)
-at com.qa.client.RestClient.get(RestClient.java:46)
-at com.qa.tests.DataExchangeAdmin.reports_newaccounts(DataExchangeAdmin.java:1179)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:766)
-at org.testng.TestRunner.run(TestRunner.java:587)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
-at org.testng.SuiteRunner.run(SuiteRunner.java:286)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
-at org.testng.TestNG.runSuites(TestNG.java:1039)
-at org.testng.TestNG.run(TestNG.java:1007)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.net.UnknownHostException -->
+        <test-method signature="reports_newaccounts()[pri:29, instance:com.qa.tests.DataExchangeAdmin@49c7b90e]" started-at="2024-04-25T15:10:07 IST" name="reports_newaccounts" finished-at="2024-04-25T15:10:10 IST" duration-ms="3185" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- reports_newaccounts -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.tests.DataExchangeAdmin@71652c98]" started-at="2024-04-25T14:43:52 IST" name="setup" finished-at="2024-04-25T14:43:52 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.tests.DataExchangeAdmin@49c7b90e]" started-at="2024-04-25T15:10:10 IST" name="setup" finished-at="2024-04-25T15:10:10 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="reports_queryhistory()[pri:30, instance:com.qa.tests.DataExchangeAdmin@71652c98]" started-at="2024-04-25T14:43:52 IST" name="reports_queryhistory" finished-at="2024-04-25T14:43:52 IST" duration-ms="37" status="FAIL">
-          <exception class="java.net.UnknownHostException">
-            <message>
-              <![CDATA[dev-dx-app-win-dataexchange-admin-us2.azurewebsites.net]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.net.UnknownHostException: dev-dx-app-win-dataexchange-admin-us2.azurewebsites.net
-at java.base/java.net.InetAddress$CachedAddresses.get(InetAddress.java:801)
-at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1533)
-at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1385)
-at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1306)
-at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
-at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:112)
-at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:376)
-at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393)
-at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
-at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)
-at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
-at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
-at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
-at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
-at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:108)
-at com.qa.client.RestClient.get(RestClient.java:46)
-at com.qa.tests.DataExchangeAdmin.reports_queryhistory(DataExchangeAdmin.java:1203)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:766)
-at org.testng.TestRunner.run(TestRunner.java:587)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
-at org.testng.SuiteRunner.run(SuiteRunner.java:286)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
-at org.testng.TestNG.runSuites(TestNG.java:1039)
-at org.testng.TestNG.run(TestNG.java:1007)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.net.UnknownHostException -->
+        <test-method signature="reports_queryhistory()[pri:30, instance:com.qa.tests.DataExchangeAdmin@49c7b90e]" started-at="2024-04-25T15:10:10 IST" name="reports_queryhistory" finished-at="2024-04-25T15:10:15 IST" duration-ms="4630" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- reports_queryhistory -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.tests.DataExchangeAdmin@71652c98]" started-at="2024-04-25T14:43:52 IST" name="setup" finished-at="2024-04-25T14:43:52 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.tests.DataExchangeAdmin@49c7b90e]" started-at="2024-04-25T15:10:15 IST" name="setup" finished-at="2024-04-25T15:10:15 IST" duration-ms="4" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="reports_seaechesperformedbyuser()[pri:32, instance:com.qa.tests.DataExchangeAdmin@71652c98]" started-at="2024-04-25T14:43:52 IST" name="reports_seaechesperformedbyuser" finished-at="2024-04-25T14:43:52 IST" duration-ms="6" status="FAIL">
-          <exception class="java.net.UnknownHostException">
-            <message>
-              <![CDATA[dev-dx-app-win-dataexchange-admin-us2.azurewebsites.net]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.net.UnknownHostException: dev-dx-app-win-dataexchange-admin-us2.azurewebsites.net
-at java.base/java.net.InetAddress$CachedAddresses.get(InetAddress.java:801)
-at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1533)
-at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1385)
-at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1306)
-at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
-at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:112)
-at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:376)
-at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393)
-at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
-at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)
-at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
-at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
-at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
-at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
-at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:108)
-at com.qa.client.RestClient.get(RestClient.java:46)
-at com.qa.tests.DataExchangeAdmin.reports_seaechesperformedbyuser(DataExchangeAdmin.java:1246)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:766)
-at org.testng.TestRunner.run(TestRunner.java:587)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
-at org.testng.SuiteRunner.run(SuiteRunner.java:286)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
-at org.testng.TestNG.runSuites(TestNG.java:1039)
-at org.testng.TestNG.run(TestNG.java:1007)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.net.UnknownHostException -->
+        <test-method signature="reports_seaechesperformedbyuser()[pri:32, instance:com.qa.tests.DataExchangeAdmin@49c7b90e]" started-at="2024-04-25T15:10:15 IST" name="reports_seaechesperformedbyuser" finished-at="2024-04-25T15:10:19 IST" duration-ms="3935" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- reports_seaechesperformedbyuser -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.tests.DataExchangeAdmin@71652c98]" started-at="2024-04-25T14:43:52 IST" name="setup" finished-at="2024-04-25T14:43:52 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.tests.DataExchangeAdmin@49c7b90e]" started-at="2024-04-25T15:10:19 IST" name="setup" finished-at="2024-04-25T15:10:19 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="reports_multiauthorization()[pri:33, instance:com.qa.tests.DataExchangeAdmin@71652c98]" started-at="2024-04-25T14:43:52 IST" name="reports_multiauthorization" finished-at="2024-04-25T14:43:52 IST" duration-ms="4" status="FAIL">
-          <exception class="java.net.UnknownHostException">
-            <message>
-              <![CDATA[dev-dx-app-win-dataexchange-admin-us2.azurewebsites.net]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.net.UnknownHostException: dev-dx-app-win-dataexchange-admin-us2.azurewebsites.net
-at java.base/java.net.InetAddress$CachedAddresses.get(InetAddress.java:801)
-at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1533)
-at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1385)
-at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1306)
-at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
-at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:112)
-at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:376)
-at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393)
-at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
-at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)
-at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
-at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
-at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
-at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
-at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:108)
-at com.qa.client.RestClient.get(RestClient.java:46)
-at com.qa.tests.DataExchangeAdmin.reports_multiauthorization(DataExchangeAdmin.java:1267)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:766)
-at org.testng.TestRunner.run(TestRunner.java:587)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
-at org.testng.SuiteRunner.run(SuiteRunner.java:286)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
-at org.testng.TestNG.runSuites(TestNG.java:1039)
-at org.testng.TestNG.run(TestNG.java:1007)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.net.UnknownHostException -->
+        <test-method signature="reports_multiauthorization()[pri:33, instance:com.qa.tests.DataExchangeAdmin@49c7b90e]" started-at="2024-04-25T15:10:19 IST" name="reports_multiauthorization" finished-at="2024-04-25T15:10:24 IST" duration-ms="5368" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- reports_multiauthorization -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.tests.DataExchangeAdmin@71652c98]" started-at="2024-04-25T14:43:52 IST" name="setup" finished-at="2024-04-25T14:43:52 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.tests.DataExchangeAdmin@49c7b90e]" started-at="2024-04-25T15:10:24 IST" name="setup" finished-at="2024-04-25T15:10:24 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="reports_entitydetails()[pri:34, instance:com.qa.tests.DataExchangeAdmin@71652c98]" started-at="2024-04-25T14:43:52 IST" name="reports_entitydetails" finished-at="2024-04-25T14:43:52 IST" duration-ms="4" status="FAIL">
-          <exception class="java.net.UnknownHostException">
-            <message>
-              <![CDATA[dev-dx-app-win-dataexchange-admin-us2.azurewebsites.net]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.net.UnknownHostException: dev-dx-app-win-dataexchange-admin-us2.azurewebsites.net
-at java.base/java.net.InetAddress$CachedAddresses.get(InetAddress.java:801)
-at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1533)
-at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1385)
-at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1306)
-at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
-at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:112)
-at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:376)
-at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393)
-at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
-at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)
-at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
-at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
-at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
-at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
-at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:108)
-at com.qa.client.RestClient.get(RestClient.java:46)
-at com.qa.tests.DataExchangeAdmin.reports_entitydetails(DataExchangeAdmin.java:1294)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:766)
-at org.testng.TestRunner.run(TestRunner.java:587)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
-at org.testng.SuiteRunner.run(SuiteRunner.java:286)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
-at org.testng.TestNG.runSuites(TestNG.java:1039)
-at org.testng.TestNG.run(TestNG.java:1007)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.net.UnknownHostException -->
+        <test-method signature="reports_entitydetails()[pri:34, instance:com.qa.tests.DataExchangeAdmin@49c7b90e]" started-at="2024-04-25T15:10:24 IST" name="reports_entitydetails" finished-at="2024-04-25T15:10:27 IST" duration-ms="3137" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- reports_entitydetails -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.tests.DataExchangeAdmin@71652c98]" started-at="2024-04-25T14:43:52 IST" name="setup" finished-at="2024-04-25T14:43:52 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.tests.DataExchangeAdmin@49c7b90e]" started-at="2024-04-25T15:10:27 IST" name="setup" finished-at="2024-04-25T15:10:27 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="reports_employeeworkinghours()[pri:35, instance:com.qa.tests.DataExchangeAdmin@71652c98]" started-at="2024-04-25T14:43:52 IST" name="reports_employeeworkinghours" finished-at="2024-04-25T14:43:52 IST" duration-ms="4" status="FAIL">
-          <exception class="java.net.UnknownHostException">
-            <message>
-              <![CDATA[dev-dx-app-win-dataexchange-admin-us2.azurewebsites.net]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.net.UnknownHostException: dev-dx-app-win-dataexchange-admin-us2.azurewebsites.net
-at java.base/java.net.InetAddress$CachedAddresses.get(InetAddress.java:801)
-at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1533)
-at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1385)
-at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1306)
-at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
-at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:112)
-at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:376)
-at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393)
-at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
-at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)
-at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
-at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
-at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
-at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
-at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:108)
-at com.qa.client.RestClient.get(RestClient.java:46)
-at com.qa.tests.DataExchangeAdmin.reports_employeeworkinghours(DataExchangeAdmin.java:1315)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:766)
-at org.testng.TestRunner.run(TestRunner.java:587)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
-at org.testng.SuiteRunner.run(SuiteRunner.java:286)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
-at org.testng.TestNG.runSuites(TestNG.java:1039)
-at org.testng.TestNG.run(TestNG.java:1007)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.net.UnknownHostException -->
+        <test-method signature="reports_employeeworkinghours()[pri:35, instance:com.qa.tests.DataExchangeAdmin@49c7b90e]" started-at="2024-04-25T15:10:27 IST" name="reports_employeeworkinghours" finished-at="2024-04-25T15:10:54 IST" duration-ms="27147" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- reports_employeeworkinghours -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.tests.DataExchangeAdmin@71652c98]" started-at="2024-04-25T14:43:53 IST" name="setup" finished-at="2024-04-25T14:43:53 IST" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.tests.DataExchangeAdmin@49c7b90e]" started-at="2024-04-25T15:10:54 IST" name="setup" finished-at="2024-04-25T15:10:54 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="searchreason()[pri:36, instance:com.qa.tests.DataExchangeAdmin@71652c98]" started-at="2024-04-25T14:43:53 IST" name="searchreason" finished-at="2024-04-25T14:43:53 IST" duration-ms="6" status="FAIL">
-          <exception class="java.net.UnknownHostException">
+        <test-method signature="searchreason()[pri:36, instance:com.qa.tests.DataExchangeAdmin@49c7b90e]" started-at="2024-04-25T15:10:54 IST" name="searchreason" finished-at="2024-04-25T15:10:58 IST" duration-ms="3376" status="FAIL">
+          <exception class="org.json.JSONException">
             <message>
-              <![CDATA[dev-dx-app-win-dataexchange-admin-us2.azurewebsites.net]]>
+              <![CDATA[JSONObject["clientname"] not found.]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.net.UnknownHostException: dev-dx-app-win-dataexchange-admin-us2.azurewebsites.net
-at java.base/java.net.InetAddress$CachedAddresses.get(InetAddress.java:801)
-at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1533)
-at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1385)
-at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1306)
-at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
-at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:112)
-at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:376)
-at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393)
-at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
-at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)
-at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
-at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
-at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
-at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
-at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:108)
-at com.qa.client.RestClient.get(RestClient.java:46)
-at com.qa.tests.DataExchangeAdmin.searchreason(DataExchangeAdmin.java:1348)
+              <![CDATA[org.json.JSONException: JSONObject["clientname"] not found.
+at org.json.JSONObject.get(JSONObject.java:572)
+at com.qa.util.TestUtil.getValueByjpath(TestUtil.java:14)
+at com.qa.tests.DataExchangeAdmin.searchreason(DataExchangeAdmin.java:1363)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -910,534 +515,90 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.net.UnknownHostException -->
+          </exception> <!-- org.json.JSONException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchreason -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.tests.DataExchangeAdmin@71652c98]" started-at="2024-04-25T14:43:53 IST" name="setup" finished-at="2024-04-25T14:43:53 IST" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.tests.DataExchangeAdmin@49c7b90e]" started-at="2024-04-25T15:10:58 IST" name="setup" finished-at="2024-04-25T15:10:58 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="searchreasondetail()[pri:37, instance:com.qa.tests.DataExchangeAdmin@71652c98]" started-at="2024-04-25T14:43:53 IST" name="searchreasondetail" finished-at="2024-04-25T14:43:53 IST" duration-ms="6" status="FAIL">
-          <exception class="java.net.UnknownHostException">
-            <message>
-              <![CDATA[dev-dx-app-win-dataexchange-admin-us2.azurewebsites.net]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.net.UnknownHostException: dev-dx-app-win-dataexchange-admin-us2.azurewebsites.net
-at java.base/java.net.InetAddress$CachedAddresses.get(InetAddress.java:801)
-at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1533)
-at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1385)
-at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1306)
-at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
-at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:112)
-at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:376)
-at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393)
-at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
-at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)
-at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
-at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
-at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
-at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
-at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:108)
-at com.qa.client.RestClient.get(RestClient.java:46)
-at com.qa.tests.DataExchangeAdmin.searchreasondetail(DataExchangeAdmin.java:1376)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:766)
-at org.testng.TestRunner.run(TestRunner.java:587)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
-at org.testng.SuiteRunner.run(SuiteRunner.java:286)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
-at org.testng.TestNG.runSuites(TestNG.java:1039)
-at org.testng.TestNG.run(TestNG.java:1007)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.net.UnknownHostException -->
+        <test-method signature="searchreasondetail()[pri:37, instance:com.qa.tests.DataExchangeAdmin@49c7b90e]" started-at="2024-04-25T15:10:58 IST" name="searchreasondetail" finished-at="2024-04-25T15:11:01 IST" duration-ms="3112" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchreasondetail -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.tests.DataExchangeAdmin@71652c98]" started-at="2024-04-25T14:43:53 IST" name="setup" finished-at="2024-04-25T14:43:53 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.tests.DataExchangeAdmin@49c7b90e]" started-at="2024-04-25T15:11:01 IST" name="setup" finished-at="2024-04-25T15:11:01 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="searchreasonsusers()[pri:39, instance:com.qa.tests.DataExchangeAdmin@71652c98]" started-at="2024-04-25T14:43:53 IST" name="searchreasonsusers" finished-at="2024-04-25T14:43:53 IST" duration-ms="5" status="FAIL">
-          <exception class="java.net.UnknownHostException">
-            <message>
-              <![CDATA[dev-dx-app-win-dataexchange-admin-us2.azurewebsites.net]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.net.UnknownHostException: dev-dx-app-win-dataexchange-admin-us2.azurewebsites.net
-at java.base/java.net.InetAddress$CachedAddresses.get(InetAddress.java:801)
-at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1533)
-at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1385)
-at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1306)
-at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
-at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:112)
-at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:376)
-at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393)
-at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
-at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)
-at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
-at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
-at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
-at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
-at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:108)
-at com.qa.client.RestClient.get(RestClient.java:46)
-at com.qa.tests.DataExchangeAdmin.searchreasonsusers(DataExchangeAdmin.java:1406)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:766)
-at org.testng.TestRunner.run(TestRunner.java:587)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
-at org.testng.SuiteRunner.run(SuiteRunner.java:286)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
-at org.testng.TestNG.runSuites(TestNG.java:1039)
-at org.testng.TestNG.run(TestNG.java:1007)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.net.UnknownHostException -->
+        <test-method signature="searchreasonsusers()[pri:39, instance:com.qa.tests.DataExchangeAdmin@49c7b90e]" started-at="2024-04-25T15:11:01 IST" name="searchreasonsusers" finished-at="2024-04-25T15:11:04 IST" duration-ms="3059" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchreasonsusers -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.tests.DataExchangeAdmin@71652c98]" started-at="2024-04-25T14:43:53 IST" name="setup" finished-at="2024-04-25T14:43:53 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.tests.DataExchangeAdmin@49c7b90e]" started-at="2024-04-25T15:11:04 IST" name="setup" finished-at="2024-04-25T15:11:04 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="individualsearch()[pri:40, instance:com.qa.tests.DataExchangeAdmin@71652c98]" started-at="2024-04-25T14:43:53 IST" name="individualsearch" finished-at="2024-04-25T14:43:53 IST" duration-ms="4" status="FAIL">
-          <exception class="java.net.UnknownHostException">
-            <message>
-              <![CDATA[dev-dx-app-win-dataexchange-admin-us2.azurewebsites.net]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.net.UnknownHostException: dev-dx-app-win-dataexchange-admin-us2.azurewebsites.net
-at java.base/java.net.InetAddress$CachedAddresses.get(InetAddress.java:801)
-at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1533)
-at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1385)
-at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1306)
-at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
-at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:112)
-at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:376)
-at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393)
-at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
-at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)
-at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
-at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
-at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
-at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
-at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:108)
-at com.qa.client.RestClient.get(RestClient.java:46)
-at com.qa.tests.DataExchangeAdmin.individualsearch(DataExchangeAdmin.java:1436)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:766)
-at org.testng.TestRunner.run(TestRunner.java:587)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
-at org.testng.SuiteRunner.run(SuiteRunner.java:286)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
-at org.testng.TestNG.runSuites(TestNG.java:1039)
-at org.testng.TestNG.run(TestNG.java:1007)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.net.UnknownHostException -->
+        <test-method signature="individualsearch()[pri:40, instance:com.qa.tests.DataExchangeAdmin@49c7b90e]" started-at="2024-04-25T15:11:04 IST" name="individualsearch" finished-at="2024-04-25T15:11:07 IST" duration-ms="3186" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- individualsearch -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.tests.DataExchangeAdmin@71652c98]" started-at="2024-04-25T14:43:53 IST" name="setup" finished-at="2024-04-25T14:43:53 IST" duration-ms="128" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.tests.DataExchangeAdmin@49c7b90e]" started-at="2024-04-25T15:11:07 IST" name="setup" finished-at="2024-04-25T15:11:07 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="entitysearch()[pri:41, instance:com.qa.tests.DataExchangeAdmin@71652c98]" started-at="2024-04-25T14:43:53 IST" name="entitysearch" finished-at="2024-04-25T14:43:53 IST" duration-ms="8" status="FAIL">
-          <exception class="java.net.UnknownHostException">
-            <message>
-              <![CDATA[dev-dx-app-win-dataexchange-admin-us2.azurewebsites.net]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.net.UnknownHostException: dev-dx-app-win-dataexchange-admin-us2.azurewebsites.net
-at java.base/java.net.InetAddress$CachedAddresses.get(InetAddress.java:801)
-at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1533)
-at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1385)
-at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1306)
-at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
-at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:112)
-at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:376)
-at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393)
-at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
-at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)
-at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
-at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
-at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
-at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
-at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:108)
-at com.qa.client.RestClient.get(RestClient.java:46)
-at com.qa.tests.DataExchangeAdmin.entitysearch(DataExchangeAdmin.java:1457)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:766)
-at org.testng.TestRunner.run(TestRunner.java:587)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
-at org.testng.SuiteRunner.run(SuiteRunner.java:286)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
-at org.testng.TestNG.runSuites(TestNG.java:1039)
-at org.testng.TestNG.run(TestNG.java:1007)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.net.UnknownHostException -->
+        <test-method signature="entitysearch()[pri:41, instance:com.qa.tests.DataExchangeAdmin@49c7b90e]" started-at="2024-04-25T15:11:07 IST" name="entitysearch" finished-at="2024-04-25T15:11:10 IST" duration-ms="3224" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- entitysearch -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.tests.DataExchangeAdmin@71652c98]" started-at="2024-04-25T14:43:53 IST" name="setup" finished-at="2024-04-25T14:43:53 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.tests.DataExchangeAdmin@49c7b90e]" started-at="2024-04-25T15:11:10 IST" name="setup" finished-at="2024-04-25T15:11:10 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="monthlyentity()[pri:42, instance:com.qa.tests.DataExchangeAdmin@71652c98]" started-at="2024-04-25T14:43:53 IST" name="monthlyentity" finished-at="2024-04-25T14:43:53 IST" duration-ms="15" status="FAIL">
-          <exception class="java.net.UnknownHostException">
-            <message>
-              <![CDATA[dev-dx-app-win-dataexchange-admin-us2.azurewebsites.net]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.net.UnknownHostException: dev-dx-app-win-dataexchange-admin-us2.azurewebsites.net
-at java.base/java.net.InetAddress$CachedAddresses.get(InetAddress.java:801)
-at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1533)
-at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1385)
-at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1306)
-at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
-at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:112)
-at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:376)
-at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393)
-at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
-at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)
-at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
-at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
-at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
-at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
-at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:108)
-at com.qa.client.RestClient.get(RestClient.java:46)
-at com.qa.tests.DataExchangeAdmin.monthlyentity(DataExchangeAdmin.java:1478)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:766)
-at org.testng.TestRunner.run(TestRunner.java:587)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
-at org.testng.SuiteRunner.run(SuiteRunner.java:286)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
-at org.testng.TestNG.runSuites(TestNG.java:1039)
-at org.testng.TestNG.run(TestNG.java:1007)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.net.UnknownHostException -->
+        <test-method signature="monthlyentity()[pri:42, instance:com.qa.tests.DataExchangeAdmin@49c7b90e]" started-at="2024-04-25T15:11:10 IST" name="monthlyentity" finished-at="2024-04-25T15:11:13 IST" duration-ms="3159" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- monthlyentity -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.tests.DataExchangeAdmin@71652c98]" started-at="2024-04-25T14:43:53 IST" name="setup" finished-at="2024-04-25T14:43:53 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.tests.DataExchangeAdmin@49c7b90e]" started-at="2024-04-25T15:11:13 IST" name="setup" finished-at="2024-04-25T15:11:13 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="monthlyindividual()[pri:43, instance:com.qa.tests.DataExchangeAdmin@71652c98]" started-at="2024-04-25T14:43:53 IST" name="monthlyindividual" finished-at="2024-04-25T14:43:53 IST" duration-ms="4" status="FAIL">
-          <exception class="java.net.UnknownHostException">
-            <message>
-              <![CDATA[dev-dx-app-win-dataexchange-admin-us2.azurewebsites.net]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.net.UnknownHostException: dev-dx-app-win-dataexchange-admin-us2.azurewebsites.net
-at java.base/java.net.InetAddress$CachedAddresses.get(InetAddress.java:801)
-at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1533)
-at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1385)
-at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1306)
-at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
-at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:112)
-at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:376)
-at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393)
-at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
-at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)
-at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
-at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
-at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
-at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
-at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:108)
-at com.qa.client.RestClient.get(RestClient.java:46)
-at com.qa.tests.DataExchangeAdmin.monthlyindividual(DataExchangeAdmin.java:1499)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:766)
-at org.testng.TestRunner.run(TestRunner.java:587)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
-at org.testng.SuiteRunner.run(SuiteRunner.java:286)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
-at org.testng.TestNG.runSuites(TestNG.java:1039)
-at org.testng.TestNG.run(TestNG.java:1007)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.net.UnknownHostException -->
+        <test-method signature="monthlyindividual()[pri:43, instance:com.qa.tests.DataExchangeAdmin@49c7b90e]" started-at="2024-04-25T15:11:13 IST" name="monthlyindividual" finished-at="2024-04-25T15:11:17 IST" duration-ms="3100" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- monthlyindividual -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.tests.DataExchangeAdmin@71652c98]" started-at="2024-04-25T14:43:53 IST" name="setup" finished-at="2024-04-25T14:43:53 IST" duration-ms="5" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.tests.DataExchangeAdmin@49c7b90e]" started-at="2024-04-25T15:11:17 IST" name="setup" finished-at="2024-04-25T15:11:17 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="downloadreport()[pri:44, instance:com.qa.tests.DataExchangeAdmin@71652c98]" started-at="2024-04-25T14:43:53 IST" name="downloadreport" finished-at="2024-04-25T14:43:53 IST" duration-ms="17" status="FAIL">
-          <exception class="java.net.UnknownHostException">
-            <message>
-              <![CDATA[dev-dx-app-win-dataexchange-admin-us2.azurewebsites.net]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.net.UnknownHostException: dev-dx-app-win-dataexchange-admin-us2.azurewebsites.net
-at java.base/java.net.InetAddress$CachedAddresses.get(InetAddress.java:801)
-at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1533)
-at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1385)
-at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1306)
-at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
-at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:112)
-at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:376)
-at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393)
-at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
-at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)
-at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
-at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
-at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
-at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
-at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:108)
-at com.qa.client.RestClient.get(RestClient.java:46)
-at com.qa.tests.DataExchangeAdmin.downloadreport(DataExchangeAdmin.java:1521)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:766)
-at org.testng.TestRunner.run(TestRunner.java:587)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
-at org.testng.SuiteRunner.run(SuiteRunner.java:286)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
-at org.testng.TestNG.runSuites(TestNG.java:1039)
-at org.testng.TestNG.run(TestNG.java:1007)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.net.UnknownHostException -->
+        <test-method signature="downloadreport()[pri:44, instance:com.qa.tests.DataExchangeAdmin@49c7b90e]" started-at="2024-04-25T15:11:17 IST" name="downloadreport" finished-at="2024-04-25T15:11:20 IST" duration-ms="3080" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- downloadreport -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.tests.DataExchangeAdmin@71652c98]" started-at="2024-04-25T14:43:53 IST" name="setup" finished-at="2024-04-25T14:43:53 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.tests.DataExchangeAdmin@49c7b90e]" started-at="2024-04-25T15:11:20 IST" name="setup" finished-at="2024-04-25T15:11:20 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="total_workflow()[pri:45, instance:com.qa.tests.DataExchangeAdmin@71652c98]" started-at="2024-04-25T14:43:53 IST" name="total_workflow" finished-at="2024-04-25T14:43:53 IST" duration-ms="128" status="FAIL">
-          <exception class="java.net.UnknownHostException">
-            <message>
-              <![CDATA[dev-dx-app-win-dataexchange-admin-us2.azurewebsites.net]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.net.UnknownHostException: dev-dx-app-win-dataexchange-admin-us2.azurewebsites.net
-at java.base/java.net.InetAddress$CachedAddresses.get(InetAddress.java:801)
-at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1533)
-at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1385)
-at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1306)
-at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
-at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:112)
-at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:376)
-at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393)
-at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
-at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)
-at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
-at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
-at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
-at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
-at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:108)
-at com.qa.client.RestClient.get(RestClient.java:46)
-at com.qa.tests.DataExchangeAdmin.total_workflow(DataExchangeAdmin.java:1567)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:766)
-at org.testng.TestRunner.run(TestRunner.java:587)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
-at org.testng.SuiteRunner.run(SuiteRunner.java:286)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
-at org.testng.TestNG.runSuites(TestNG.java:1039)
-at org.testng.TestNG.run(TestNG.java:1007)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.net.UnknownHostException -->
+        <test-method signature="total_workflow()[pri:45, instance:com.qa.tests.DataExchangeAdmin@49c7b90e]" started-at="2024-04-25T15:11:20 IST" name="total_workflow" finished-at="2024-04-25T15:11:21 IST" duration-ms="895" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- total_workflow -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.tests.DataExchangeAdmin@71652c98]" started-at="2024-04-25T14:43:53 IST" name="setup" finished-at="2024-04-25T14:43:53 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.tests.DataExchangeAdmin@49c7b90e]" started-at="2024-04-25T15:11:21 IST" name="setup" finished-at="2024-04-25T15:11:21 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="workflow_by_id()[pri:45, instance:com.qa.tests.DataExchangeAdmin@71652c98]" started-at="2024-04-25T14:43:53 IST" name="workflow_by_id" finished-at="2024-04-25T14:43:53 IST" duration-ms="5" status="FAIL">
-          <exception class="java.net.UnknownHostException">
+        <test-method signature="workflow_by_id()[pri:45, instance:com.qa.tests.DataExchangeAdmin@49c7b90e]" started-at="2024-04-25T15:11:21 IST" name="workflow_by_id" finished-at="2024-04-25T15:11:21 IST" duration-ms="814" status="FAIL">
+          <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[dev-dx-app-win-dataexchange-admin-us2.azurewebsites.net]]>
+              <![CDATA[status code is not 200 expected [200] but found [400]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.net.UnknownHostException: dev-dx-app-win-dataexchange-admin-us2.azurewebsites.net
-at java.base/java.net.InetAddress$CachedAddresses.get(InetAddress.java:801)
-at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1533)
-at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1385)
-at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1306)
-at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
-at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:112)
-at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:376)
-at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393)
-at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
-at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)
-at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
-at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
-at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
-at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
-at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:108)
-at com.qa.client.RestClient.get(RestClient.java:46)
-at com.qa.tests.DataExchangeAdmin.workflow_by_id(DataExchangeAdmin.java:1545)
+              <![CDATA[java.lang.AssertionError: status code is not 200 expected [200] but found [400]
+at org.testng.Assert.fail(Assert.java:97)
+at org.testng.Assert.assertEqualsImpl(Assert.java:136)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:839)
+at com.qa.tests.DataExchangeAdmin.workflow_by_id(DataExchangeAdmin.java:1549)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -1468,69 +629,15 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.net.UnknownHostException -->
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- workflow_by_id -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.tests.DataExchangeAdmin@71652c98]" started-at="2024-04-25T14:43:53 IST" name="setup" finished-at="2024-04-25T14:43:53 IST" duration-ms="15" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.tests.DataExchangeAdmin@49c7b90e]" started-at="2024-04-25T15:11:21 IST" name="setup" finished-at="2024-04-25T15:11:21 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="workflow_client()[pri:48, instance:com.qa.tests.DataExchangeAdmin@71652c98]" started-at="2024-04-25T14:43:53 IST" name="workflow_client" finished-at="2024-04-25T14:43:53 IST" duration-ms="5" status="FAIL">
-          <exception class="java.net.UnknownHostException">
-            <message>
-              <![CDATA[dev-dx-app-win-dataexchange-admin-us2.azurewebsites.net]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.net.UnknownHostException: dev-dx-app-win-dataexchange-admin-us2.azurewebsites.net
-at java.base/java.net.InetAddress$CachedAddresses.get(InetAddress.java:801)
-at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1533)
-at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1385)
-at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1306)
-at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
-at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:112)
-at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:376)
-at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393)
-at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
-at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)
-at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
-at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
-at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
-at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
-at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:108)
-at com.qa.client.RestClient.get(RestClient.java:46)
-at com.qa.tests.DataExchangeAdmin.workflow_client(DataExchangeAdmin.java:1592)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:766)
-at org.testng.TestRunner.run(TestRunner.java:587)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
-at org.testng.SuiteRunner.run(SuiteRunner.java:286)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
-at org.testng.TestNG.runSuites(TestNG.java:1039)
-at org.testng.TestNG.run(TestNG.java:1007)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.net.UnknownHostException -->
+        <test-method signature="workflow_client()[pri:48, instance:com.qa.tests.DataExchangeAdmin@49c7b90e]" started-at="2024-04-25T15:11:21 IST" name="workflow_client" finished-at="2024-04-25T15:11:22 IST" duration-ms="860" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- workflow_client -->
