@@ -371,7 +371,172 @@ public class DataExchangeAdmin_Ondemand extends TestBase implements IExecutionLi
 			
 	}
 
+	@Test(priority = 12)
+	public void batch_fileupload() throws ClientProtocolException, IOException {
+		restclient = new RestClient();
+		HashMap<String, String> headermap = new HashMap<String, String>();
+		headermap.put("content-type", "multipart/form-data");
+		headermap.put("SearchType", "dolor aute");
+		headermap.put("SearchReasonId", "33631227");
+		headermap.put("ClientId", "33631227");
+		headermap.put("WorkflowId", "33631227");
+		headermap.put("RequestingAgency", "dolor aute");
+		headermap.put("BatchName", "dolor aute");
+		headermap.put("BatchId", "33631227");
+		headermap.put("status", "dolor aute");
+		headermap.put("Authorization", "Bearer " + token);
+		
+		String jsonpayload = "{\r\n"
+				+ "  \"searchReasonId\": 10198,\r\n"
+				+ "  \"registrationNumber\": \"PR0566EE\",\r\n"
+				+ "  \"transactionDate\": \"2024-01-31\",\r\n"
+				+ "  \"shipPickup\": \"Y\",\r\n"
+				+ "  \"mailingAddressLine1\": \"123\",\r\n"
+				+ "  \"mailingAddressLine2\": \"123\",\r\n"
+				+ "  \"mailingCity\": \"San Juan\",\r\n"
+				+ "  \"mailingZip\": \"12345\",\r\n"
+				+ "  \"ResidentialAddressLine1\": \"123\",\r\n"
+				+ "  \"ResidentialAddressLine2\": \"123\",\r\n"
+				+ "  \"ResidentialCity\": \"lARES\",\r\n"
+				+ "  \"ResidentialZip\": \"12123\",\r\n"
+				+ "  \"receiptNumber\": \"0000000\",\r\n"
+				+ "  \"amount\": 5.00,\r\n"
+				+ "  \"Email\": \"email@email.com\",\r\n"
+				+ "  \"UserId\": \"1394892\",\r\n"
+				+ "  \"transactionCode\": \"28937291\"\r\n"
+				+ "}";
+		
+
+		closeableHttpResponse = restclient.post(batchfileupload, jsonpayload, headermap);
+
+		int statuscode = closeableHttpResponse.getStatusLine().getStatusCode();
+		System.out.println("Status code:" + statuscode);
+		Assert.assertEquals(statuscode, RESPONSE_STATUS_CODE_200, "status code is not 200");
+
+		// //2.Json String
+		String responsestring = EntityUtils.toString(closeableHttpResponse.getEntity(), "UTF-8");
+		JSONObject responseJson = new JSONObject(responsestring);
+		System.out.println("JSON response from API---->" + responseJson);
+
+//		// To get value from JSON Array
+//		String citizen_referenceId_ShipRenewal = TestUtil.getValueByjpath(responseJson, "/citizen_referenceId");
+//		System.out.println("Ticket Transaction message Response From Json is : " + citizen_referenceId_ShipRenewal);
+
+		// 3.All Headers
+		Header[] headersArray = closeableHttpResponse.getAllHeaders();
+		HashMap<String, String> allHeaders = new HashMap<String, String>();
+
+		for (Header header : headersArray) {
+		allHeaders.put(header.getName(), header.getValue());
+
+		}
+		System.out.println("Headers Array-->" + allHeaders);
+
+	}
+	@Test(priority = 14)
+	public void historicalbatches() throws ClientProtocolException, IOException {
+		restclient = new RestClient();
+		HashMap<String, String> headermap = new HashMap<String, String>();
+		headermap.put("content-type", "application/json");
+		headermap.put("SearchType", "dolor aute");
+		headermap.put("SearchReasonId", "33631227");
+		headermap.put("ClientId", "33631227");
+		headermap.put("StartDate", "dolor aute");
+		headermap.put("EndDate", "dolor aute");
+		headermap.put("Authorization", "Bearer " + token);
+		
+		closeableHttpResponse = restclient.get(historicalbatches,headermap);
+
+		int statuscode = closeableHttpResponse.getStatusLine().getStatusCode();
+		System.out.println("Status code:" + statuscode);
+		Assert.assertEquals(statuscode, RESPONSE_STATUS_CODE_200, "status code is not 200");
+
+		// //2.Json String
+		String responsestring = EntityUtils.toString(closeableHttpResponse.getEntity(), "UTF-8");
+		JSONObject responseJson = new JSONObject(responsestring);
+		System.out.println("JSON response from API---->" + responseJson);
+
+//		// To get value from JSON Array
+//		String citizen_AgencyName = TestUtil.getValueByjpath(responseJson, "/data[0]/Agency");
+//		System.out.println("Ticket Transaction message Response From Json is : " + citizen_AgencyName);
+
+		// 3.All Headers
+		Header[] headersArray = closeableHttpResponse.getAllHeaders();
+		HashMap<String, String> allHeaders = new HashMap<String, String>();
+
+		for (Header header : headersArray) {
+		allHeaders.put(header.getName(), header.getValue());
+
+		}
+		System.out.println("Headers Array-->" + allHeaders);
+
+	}
 	
+	@Test(priority = 15)
+	public void batch_downloadfile() throws ClientProtocolException, IOException {
+		restclient = new RestClient();
+		HashMap<String, String> headermap = new HashMap<String, String>();
+		headermap.put("content-type", "application/json");
+		headermap.put("BatchId", "33631227");
+		headermap.put("Authorization", "Bearer " + token);
+
+		
+		closeableHttpResponse = restclient.post_nobody(batchdownloadfile,headermap);
+
+		int statuscode = closeableHttpResponse.getStatusLine().getStatusCode();
+		System.out.println("Status code:" + statuscode);
+		Assert.assertEquals(statuscode, RESPONSE_STATUS_CODE_200, "status code is not 200");
+
+		// //2.Json String
+		String responsestring = EntityUtils.toString(closeableHttpResponse.getEntity(), "UTF-8");
+		JSONObject responseJson = new JSONObject(responsestring);
+		System.out.println("JSON response from API---->" + responseJson);
+	}
+
+	@Test(priority = 16)
+	public void batchdetail() throws ClientProtocolException, IOException {
+		restclient = new RestClient();
+		HashMap<String, String> headermap = new HashMap<String, String>();
+		headermap.put("content-type", "application/json");
+		headermap.put("BatchId", "33631227");
+		headermap.put("SearchType", "dolor aute");
+		headermap.put("Authorization", "Bearer " + token);
+
+		
+		closeableHttpResponse = restclient.get(batchdetails,headermap);
+
+		int statuscode = closeableHttpResponse.getStatusLine().getStatusCode();
+		System.out.println("Status code:" + statuscode);
+		Assert.assertEquals(statuscode, RESPONSE_STATUS_CODE_200, "status code is not 200");
+
+		// //2.Json String
+		String responsestring = EntityUtils.toString(closeableHttpResponse.getEntity(), "UTF-8");
+		JSONObject responseJson = new JSONObject(responsestring);
+		System.out.println("JSON response from API---->" + responseJson);
+	}
+
+	@Test(priority = 17)
+	public void downloadbatchdetail() throws ClientProtocolException, IOException {
+		restclient = new RestClient();
+		HashMap<String, String> headermap = new HashMap<String, String>();
+		headermap.put("content-type", "application/json");
+		headermap.put("BatchId", "33631227");
+		headermap.put("SearchType", "dolor aute");
+		headermap.put("Authorization", "Bearer " + token);
+
+		
+		closeableHttpResponse = restclient.get(downloadbatchdetails,headermap);
+
+		int statuscode = closeableHttpResponse.getStatusLine().getStatusCode();
+		System.out.println("Status code:" + statuscode);
+		Assert.assertEquals(statuscode, RESPONSE_STATUS_CODE_200, "status code is not 200");
+
+		// //2.Json String
+		String responsestring = EntityUtils.toString(closeableHttpResponse.getEntity(), "UTF-8");
+		JSONObject responseJson = new JSONObject(responsestring);
+		System.out.println("JSON response from API---->" + responseJson);
+	}
+
 //	@Test(priority = 18)
 //	public void savebatchdetail() throws ClientProtocolException, IOException {
 //		restclient = new RestClient();

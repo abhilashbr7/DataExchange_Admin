@@ -1049,8 +1049,6 @@ public class DataExchangeAdmin extends TestBase implements IExecutionListener {
 		JSONObject responseJson = new JSONObject(responsestring);
 		System.out.println("JSON response from API---->" + responseJson);
 		
-		String filename = TestUtil.getValueByjpath(responseJson, "/filename");
-		System.out.println("Fee Response From Json is : " + filename);
 	}
 	
 	
@@ -1188,7 +1186,7 @@ public class DataExchangeAdmin extends TestBase implements IExecutionListener {
 		System.out.println("JSON response from API---->" + responseJson);
 		
 		// To get value from JSON Array
-		String reports_acc = TestUtil.getValueByjpath(responseJson, "/data[0]/accountEnabled");
+		String reports_acc = TestUtil.getValueByjpath(responseJson, "/data[0]/AccountEnabled");
 		System.out.println("Fee Response From Json is : " + reports_acc);
 	}
 	
