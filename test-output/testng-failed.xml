@@ -8,14 +8,10 @@
     <classes>
       <class name="com.qa.tests.DataExchangeAdmin">
         <methods>
-          <include name="batch_downloadfile"/>
           <include name="searchreason"/>
           <include name="setup"/>
-          <include name="batch_fileupload"/>
-          <include name="client"/>
           <include name="reports_activelogins"/>
           <include name="workflow_by_id"/>
-          <include name="mapping"/>
         </methods>
       </class> <!-- com.qa.tests.DataExchangeAdmin -->
     </classes>

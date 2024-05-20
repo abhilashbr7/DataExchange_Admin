@@ -1358,7 +1358,7 @@ public class DataExchangeAdmin extends TestBase implements IExecutionListener {
 		String searchReasonid = TestUtil.getValueByjpath(responseJson, "/data[0]/SearchReasonId");
 		System.out.println("Serach reason Id Response From Json is : " + searchReasonid);
 
-		String clientname = TestUtil.getValueByjpath(responseJson, "/data[0]/clientname");
+		String clientname = TestUtil.getValueByjpath(responseJson, "/data[0]/ClientName");
 		System.out.println("Search reason clientname Response From Json is : " + clientname);
 	}
 
