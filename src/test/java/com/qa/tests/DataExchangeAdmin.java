@@ -451,7 +451,7 @@ public class DataExchangeAdmin extends TestBase implements IExecutionListener {
 //
 //	}
 
-	@Test(priority = 8)
+	@Test(priority = 7)
 	public void UpdateSystemUser() throws ClientProtocolException, IOException {
 		restclient = new RestClient();
 		HashMap<String, String> headermap = new HashMap<String, String>();
@@ -494,7 +494,7 @@ public class DataExchangeAdmin extends TestBase implements IExecutionListener {
 
 	}
 
-	@Test(priority = 9)
+	@Test(priority = 8)
 	public void EnableDisableSystemUser() throws ClientProtocolException, IOException {
 		restclient = new RestClient();
 		HashMap<String, String> headermap = new HashMap<String, String>();
@@ -532,7 +532,7 @@ public class DataExchangeAdmin extends TestBase implements IExecutionListener {
 
 	}
 	
-	@Test(priority = 10)
+	@Test(priority = 9)
 	public void AgencyDistribution() throws ClientProtocolException, IOException {
 		restclient = new RestClient();
 		HashMap<String, String> headermap = new HashMap<String, String>();
@@ -570,7 +570,7 @@ public class DataExchangeAdmin extends TestBase implements IExecutionListener {
 	
 //	Agency
 	
-	@Test(priority = 11)
+	@Test(priority = 10)
 	public void AgencyAll() throws ClientProtocolException, IOException {
 		restclient = new RestClient();
 		HashMap<String, String> headermap = new HashMap<String, String>();
@@ -725,7 +725,7 @@ public class DataExchangeAdmin extends TestBase implements IExecutionListener {
 //	}
 	
 	
-	@Test(priority = 14)
+	@Test(priority = 11)
 	public void historicalbatches() throws ClientProtocolException, IOException {
 		restclient = new RestClient();
 		HashMap<String, String> headermap = new HashMap<String, String>();
@@ -785,7 +785,7 @@ public class DataExchangeAdmin extends TestBase implements IExecutionListener {
 //		System.out.println("JSON response from API---->" + responseJson);
 //	}
 
-	@Test(priority = 16)
+	@Test(priority = 12)
 	public void batchdetail() throws ClientProtocolException, IOException {
 		restclient = new RestClient();
 		HashMap<String, String> headermap = new HashMap<String, String>();
@@ -807,7 +807,7 @@ public class DataExchangeAdmin extends TestBase implements IExecutionListener {
 		System.out.println("JSON response from API---->" + responseJson);
 	}
 
-	@Test(priority = 17)
+	@Test(priority = 13)
 	public void downloadbatchdetail() throws ClientProtocolException, IOException {
 		restclient = new RestClient();
 		HashMap<String, String> headermap = new HashMap<String, String>();
@@ -829,7 +829,7 @@ public class DataExchangeAdmin extends TestBase implements IExecutionListener {
 		System.out.println("JSON response from API---->" + responseJson);
 	}
 	
-	@Test(priority = 18)
+	@Test(priority = 14)
 	public void client() throws ClientProtocolException, IOException {
 		restclient = new RestClient();
 		HashMap<String, String> headermap = new HashMap<String, String>();
@@ -860,7 +860,7 @@ public class DataExchangeAdmin extends TestBase implements IExecutionListener {
 		
 	}
 	
-	@Test(priority = 18)
+	@Test(priority = 15)
 	public void mapping() throws ClientProtocolException, IOException {
 		restclient = new RestClient();
 		HashMap<String, String> headermap = new HashMap<String, String>();
@@ -912,7 +912,7 @@ public class DataExchangeAdmin extends TestBase implements IExecutionListener {
 	
 //	Reference
 	
-	@Test(priority = 20)
+	@Test(priority = 16)
 	public void alertmessage() throws ClientProtocolException, IOException {
 		restclient = new RestClient();
 		HashMap<String, String> headermap = new HashMap<String, String>();
@@ -933,7 +933,7 @@ public class DataExchangeAdmin extends TestBase implements IExecutionListener {
 	}
 
 
-	@Test(priority = 21)
+	@Test(priority = 17)
 	public void reference_agency() throws ClientProtocolException, IOException {
 		restclient = new RestClient();
 		HashMap<String, String> headermap = new HashMap<String, String>();
@@ -970,7 +970,7 @@ public class DataExchangeAdmin extends TestBase implements IExecutionListener {
 		System.out.println("Headers Array-->" + allHeaders);
 	}
 	
-	@Test(priority = 22)
+	@Test(priority = 18)
 	public void reference_role() throws ClientProtocolException, IOException {
 		restclient = new RestClient();
 		HashMap<String, String> headermap = new HashMap<String, String>();
@@ -1001,7 +1001,7 @@ public class DataExchangeAdmin extends TestBase implements IExecutionListener {
 
 	}
 	
-	@Test(priority = 23)
+	@Test(priority = 19)
 	public void reference_userdisablereason() throws ClientProtocolException, IOException {
 		restclient = new RestClient();
 		HashMap<String, String> headermap = new HashMap<String, String>();
@@ -1029,7 +1029,7 @@ public class DataExchangeAdmin extends TestBase implements IExecutionListener {
 
 	}
 	
-	@Test(priority = 24)
+	@Test(priority = 20)
 	public void reeference_template() throws ClientProtocolException, IOException {
 		restclient = new RestClient();
 		HashMap<String, String> headermap = new HashMap<String, String>();
@@ -1054,7 +1054,7 @@ public class DataExchangeAdmin extends TestBase implements IExecutionListener {
 	
 //	Reports
 	
-	@Test(priority = 25)
+	@Test(priority = 21)
 	public void reports_landing() throws ClientProtocolException, IOException {
 		restclient = new RestClient();
 		HashMap<String, String> headermap = new HashMap<String, String>();
@@ -1082,7 +1082,7 @@ public class DataExchangeAdmin extends TestBase implements IExecutionListener {
 
 	}
 	
-	@Test(priority = 26)
+	@Test(priority = 22)
 	public void reports_failedlogins() throws ClientProtocolException, IOException {
 		restclient = new RestClient();
 		HashMap<String, String> headermap = new HashMap<String, String>();
@@ -1111,7 +1111,7 @@ public class DataExchangeAdmin extends TestBase implements IExecutionListener {
 		}
 	
 	
-	@Test(priority = 27)
+	@Test(priority = 23)
 	public void reports_activelogins() throws ClientProtocolException, IOException {
 		restclient = new RestClient();
 		HashMap<String, String> headermap = new HashMap<String, String>();
@@ -1139,7 +1139,7 @@ public class DataExchangeAdmin extends TestBase implements IExecutionListener {
 	}
 	
 	
-	@Test(priority = 28)
+	@Test(priority = 24)
 	public void reports_loginhistory() throws ClientProtocolException, IOException {
 		restclient = new RestClient();
 		HashMap<String, String> headermap = new HashMap<String, String>();
@@ -1166,7 +1166,7 @@ public class DataExchangeAdmin extends TestBase implements IExecutionListener {
 		System.out.println("Fee Response From Json is : " + reports_loginhistory_agency);
 	}
 	
-	@Test(priority = 29)
+	@Test(priority = 25)
 	public void reports_newaccounts() throws ClientProtocolException, IOException {
 		restclient = new RestClient();
 		HashMap<String, String> headermap = new HashMap<String, String>();
@@ -1190,7 +1190,7 @@ public class DataExchangeAdmin extends TestBase implements IExecutionListener {
 		System.out.println("Fee Response From Json is : " + reports_acc);
 	}
 	
-	@Test(priority = 30)
+	@Test(priority = 26)
 	public void reports_queryhistory() throws ClientProtocolException, IOException {
 		restclient = new RestClient();
 		HashMap<String, String> headermap = new HashMap<String, String>();
@@ -1232,7 +1232,7 @@ public class DataExchangeAdmin extends TestBase implements IExecutionListener {
 //				
 //	}
 	
-	@Test(priority = 32)
+	@Test(priority = 27)
 	public void reports_seaechesperformedbyuser() throws ClientProtocolException, IOException {
 		restclient = new RestClient();
 		HashMap<String, String> headermap = new HashMap<String, String>();
@@ -1254,7 +1254,7 @@ public class DataExchangeAdmin extends TestBase implements IExecutionListener {
 		
 			}
 	
-	@Test(priority = 33)
+	@Test(priority = 28)
 	public void reports_multiauthorization() throws ClientProtocolException, IOException {
 		restclient = new RestClient();
 		HashMap<String, String> headermap = new HashMap<String, String>();
@@ -1281,7 +1281,7 @@ public class DataExchangeAdmin extends TestBase implements IExecutionListener {
 		System.out.println("Fee Response From Json is : " + reports_TableId);
 	}
 
-	@Test(priority = 34)
+	@Test(priority = 29)
 	public void reports_entitydetails() throws ClientProtocolException, IOException {
 		restclient = new RestClient();
 		HashMap<String, String> headermap = new HashMap<String, String>();
@@ -1302,7 +1302,7 @@ public class DataExchangeAdmin extends TestBase implements IExecutionListener {
 		
 		}
 	
-	@Test(priority = 35)
+	@Test(priority = 30)
 	public void reports_employeeworkinghours() throws ClientProtocolException, IOException {
 		restclient = new RestClient();
 		HashMap<String, String> headermap = new HashMap<String, String>();
@@ -1332,7 +1332,7 @@ public class DataExchangeAdmin extends TestBase implements IExecutionListener {
 	
 	
 //	search reason
-	@Test(priority = 36)
+	@Test(priority = 31)
 	public void searchreason() throws ClientProtocolException, IOException {
 		restclient = new RestClient();
 		HashMap<String, String> headermap = new HashMap<String, String>();
@@ -1362,7 +1362,7 @@ public class DataExchangeAdmin extends TestBase implements IExecutionListener {
 		System.out.println("Search reason clientname Response From Json is : " + clientname);
 	}
 
-	@Test(priority = 37)
+	@Test(priority = 32)
 	public void searchreasondetail() throws ClientProtocolException, IOException {
 		restclient = new RestClient();
 		HashMap<String, String> headermap = new HashMap<String, String>();
@@ -1391,7 +1391,7 @@ public class DataExchangeAdmin extends TestBase implements IExecutionListener {
 	}
 
 	
-	@Test(priority = 39)
+	@Test(priority = 33)
 	public void searchreasonsusers() throws ClientProtocolException, IOException {
 		restclient = new RestClient();
 		HashMap<String, String> headermap = new HashMap<String, String>();
@@ -1423,7 +1423,7 @@ public class DataExchangeAdmin extends TestBase implements IExecutionListener {
 //	usage metrics
 	
 
-	@Test(priority = 40)
+	@Test(priority = 34)
 	public void individualsearch() throws ClientProtocolException, IOException {
 		restclient = new RestClient();
 		HashMap<String, String> headermap = new HashMap<String, String>();
@@ -1444,7 +1444,7 @@ public class DataExchangeAdmin extends TestBase implements IExecutionListener {
 		
 	}
 	
-	@Test(priority = 41)
+	@Test(priority = 35)
 	public void entitysearch() throws ClientProtocolException, IOException {
 		restclient = new RestClient();
 		HashMap<String, String> headermap = new HashMap<String, String>();
@@ -1465,7 +1465,7 @@ public class DataExchangeAdmin extends TestBase implements IExecutionListener {
 		
 	}
 	
-	@Test(priority = 42)
+	@Test(priority = 36)
 	public void monthlyentity() throws ClientProtocolException, IOException {
 		restclient = new RestClient();
 		HashMap<String, String> headermap = new HashMap<String, String>();
@@ -1486,7 +1486,7 @@ public class DataExchangeAdmin extends TestBase implements IExecutionListener {
 		
 	}
 	
-	@Test(priority = 43)
+	@Test(priority = 37)
 	public void monthlyindividual() throws ClientProtocolException, IOException {
 		restclient = new RestClient();
 		HashMap<String, String> headermap = new HashMap<String, String>();
@@ -1508,7 +1508,7 @@ public class DataExchangeAdmin extends TestBase implements IExecutionListener {
 
 	}
 	
-	@Test(priority = 44)
+	@Test(priority = 38)
 	public void downloadreport() throws ClientProtocolException, IOException {
 		restclient = new RestClient();
 		HashMap<String, String> headermap = new HashMap<String, String>();
@@ -1532,7 +1532,7 @@ public class DataExchangeAdmin extends TestBase implements IExecutionListener {
 	
 //	workflow
 
-	@Test(priority = 45)
+	@Test(priority = 39)
 	public void workflow_by_id() throws ClientProtocolException, IOException {
 		restclient = new RestClient();
 		HashMap<String, String> headermap = new HashMap<String, String>();
@@ -1554,7 +1554,7 @@ public class DataExchangeAdmin extends TestBase implements IExecutionListener {
 
 	}
 	
-	@Test(priority = 45)
+	@Test(priority = 40)
 	public void total_workflow() throws ClientProtocolException, IOException {
 		restclient = new RestClient();
 		HashMap<String, String> headermap = new HashMap<String, String>();
@@ -1578,7 +1578,7 @@ public class DataExchangeAdmin extends TestBase implements IExecutionListener {
 
 	
 	
-	@Test(priority = 48)
+	@Test(priority = 41)
 	public void workflow_client() throws ClientProtocolException, IOException {
 		restclient = new RestClient();
 		HashMap<String, String> headermap = new HashMap<String, String>();
